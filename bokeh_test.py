@@ -43,16 +43,16 @@ gme_daily_transformed_df = gme_daily_transformed_df.astype({
 })
 
 # Filtering the DataFrame to include only data from December 2020 to April 2021 and creating a copy
-gme_dec2020_apr2021_df = gme_daily_transformed_df[
+gme_jan_apr2021_df = gme_daily_transformed_df[
     (gme_daily_transformed_df['Date'] >= '2020-12-01') &
     (gme_daily_transformed_df['Date'] <= '2021-04-30')
 ].copy()
 
 # Set 'Date' as the DataFrame index
-gme_dec2020_apr2021_df.set_index('Date', inplace=True)
+gme_jan_apr2021_df.set_index('Date', inplace=True)
 
 # Create a ColumnDataSource for Bokeh plotting
-source = ColumnDataSource(data=gme_dec2020_apr2021_df)
+source = ColumnDataSource(data=gme_jan_apr2021_df)
 
 # Create the figure
 p = figure(title="GME Daily Closing Prices (Dec 2020 - Apr 2021)", 
