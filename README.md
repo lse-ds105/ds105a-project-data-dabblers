@@ -1,6 +1,12 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WKKzpWVj)
 
-Webpage	Motivation	5	- The webpage explains what made the group curious about this data.
+What made you curious about this kind of data in the first place?
+How did you gather the data?
+What is in the data? What does it look like in general?
+What did you find out about the data? (Exploratory Data Analysis)
+
+Webpage	Motivation	5	- The webpage explains what made the group curious about this data. 
+
 
 Our group became fascinated by the Gamestop short squeeze in January 2021 at the time of its occurrence. 
 
@@ -9,13 +15,13 @@ The subreddit r/wallstreetbet collectively short-squeezed Gamestop (GME) stock  
 
 
 
-Webpage	Data	5	- The webpage succinctly lists the data sources and the data collection challenges
+Webpage	Data	5	- The webpage succinctly lists the data sources and the data collection challenges. 
 
 
 
 
 
-Webpage	Exploratory Data Analysis (EDA)	10	- The webpage paints a vivid picture of the data (things like: the number of data points, what are the different data types and the most relevant columns, summaries and distributions, etc.)
+Webpage	Exploratory Data Analysis (EDA)	10	- The webpage paints a vivid picture of the data (things like the number of data points, what are the different data types and the most relevant columns, summaries and distributions, etc.)
 
 
 
