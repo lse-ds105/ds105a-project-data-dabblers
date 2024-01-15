@@ -25,19 +25,15 @@ Alpha Vantage API
 
 CSV file of data scraped from Reddit API - requested from LSE alumni with access to Reddit API.
 
-#### Amount of data collected:
-
-Collected 5484 rows of GME stock price data from the Alpha Vantage API.
-
-Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
-
 #### Process of scraping and cleaning Reddit data:
 
 ![reddit_scraping_process](images/reddit_scraping_process.png "Reddit Data Scraping Process")
 
 ![reddit_cleaning_process](images/reddit_cleaning_process.png "Reddit Data Cleaning Process")
 
-<img src="images/original_reddit_data.png" alt="original_reddit_data" width="30%" height="auto"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="30%" height="auto"> <img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
+<img src="images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
+
+<img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
 
 #### Process of scraping and cleaning GameStop stock data:
 
@@ -46,6 +42,13 @@ Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
 ![gme_cleaning_process](images/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
 
 <img src="images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto">
+
+#### Data collected:
+
+Collected 5484 rows of GME stock price data from the Alpha Vantage API.
+
+
+Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
 
 
 ### Exploratory Data Analysis
