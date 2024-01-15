@@ -65,6 +65,15 @@ Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
 
 *What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.*
 
+Alpha Vantage API key: 71F522PIQRFAFZZO
+
+### Installation for MacOS
+
+Run code in the command line:
+
+pip install -r requirements.txt
+
+### Installation for Windows
 
 ## Usage
 
