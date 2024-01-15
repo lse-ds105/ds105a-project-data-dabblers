@@ -33,21 +33,27 @@ Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
 
 #### Process of scraping and cleaning Reddit data:
 
-![reddit_scraping_process](visualisations/reddit_scraping_process.png "Reddit Data Scraping Process")
+![reddit_scraping_process](images/reddit_scraping_process.png "Reddit Data Scraping Process")
 
-![reddit_cleaning_process](visualisations/reddit_cleaning_process.png "Reddit Data Cleaning Process")
+![reddit_cleaning_process](images/reddit_cleaning_process.png "Reddit Data Cleaning Process")
+
+<img src="images/original_reddit_data.png" alt="original_reddit_data" width="30%" height="auto"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="30%" height="auto">
+
+<img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="50%" height="auto">
 
 #### Process of scraping and cleaning GameStop stock data:
 
-![gme_scraping_process](visualisations/gme_scraping_process.png "GameStop Stock Data Scraping Process")
+![gme_scraping_process](images/gme_scraping_process.png "GameStop Stock Data Scraping Process")
 
-![gme_cleaning_process](visualisations/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
+![gme_cleaning_process](images/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
+
+<img src="images/merged_dataframes.png" alt="merged_dataframes" width="50%" height="auto">
 
 
 ### Exploratory Data Analysis
 
 
-### Visualtions
+### Visualisations
 
 
 ## Installation
@@ -59,11 +65,6 @@ Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
 
 *Provide instructions and examples for use. Include screenshots as needed.*
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
