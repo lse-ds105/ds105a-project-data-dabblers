@@ -34,6 +34,7 @@ CSV file of data scraped from Reddit API - requested from LSE alumni with access
 <img src="images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
 
 Screenshot of cleaned Reddit data frame:
+
 <img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
 
 #### Process of scraping and cleaning GameStop stock data:
@@ -43,6 +44,7 @@ Screenshot of cleaned Reddit data frame:
 ![gme_cleaning_process](images/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
 
 Screenshot of cleaned and merged GME data frame:
+
 <img src="images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto">
 
 #### Data collected:
