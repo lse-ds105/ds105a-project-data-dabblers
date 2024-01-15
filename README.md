@@ -2,8 +2,6 @@
 
 ### Credits
 
-Anna Jin (https://github.com/annajin1)
-
-Adnan Baig (https://github.com/Wickederknave5)
-
+Anna Jin (https://github.com/annajin1)  
+Adnan Baig (https://github.com/Wickederknave5)  
 Hailey Stevens (https://github.com/haileystvns)
