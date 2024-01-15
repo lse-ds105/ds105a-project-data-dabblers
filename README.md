@@ -13,23 +13,39 @@
 
 ## Description
 
+
 ### Motivation
+
 
 ### Data
 
-#### Process of Scraping and Cleaning Reddit Data
+#### Data sources:
+
+Alpha Vantage API
+
+CSV file of data scraped from Reddit API - requested from LSE alumni with access to Reddit API.
+
+#### Amount of data collected:
+
+Collected 5484 rows of GME stock price data from the Alpha Vantage API.
+
+Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
+
+#### Process of scraping and cleaning Reddit data:
 
 ![reddit_scraping_process](visualisations/reddit_scraping_process.png "Reddit Data Scraping Process")
 
 ![reddit_cleaning_process](visualisations/reddit_cleaning_process.png "Reddit Data Cleaning Process")
 
-#### Process of Scraping and Cleaning GameStop Stock Data
+#### Process of scraping and cleaning GameStop stock data:
 
 ![gme_scraping_process](visualisations/gme_scraping_process.png "GameStop Stock Data Scraping Process")
 
 ![gme_cleaning_process](visualisations/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
 
+
 ### Exploratory Data Analysis
+
 
 ### Visualtions
 
