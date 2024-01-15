@@ -37,9 +37,7 @@ Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
 
 ![reddit_cleaning_process](images/reddit_cleaning_process.png "Reddit Data Cleaning Process")
 
-<img src="images/original_reddit_data.png" alt="original_reddit_data" width="30%" height="auto"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="30%" height="auto">
-
-<img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="30%" height="auto">
+<img src="images/original_reddit_data.png" alt="original_reddit_data" width="30%" height="auto"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="30%" height="auto"> <img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
 
 #### Process of scraping and cleaning GameStop stock data:
 
