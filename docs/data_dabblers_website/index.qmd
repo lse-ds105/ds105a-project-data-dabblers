@@ -9,6 +9,12 @@ title: "data_dabblers"
 - Anna Jin | BSc in Economics
 - Hailey Stevens | BA in History
 
+
+
+
+
+
+
 The flowchart describes a step-by-step process for scraping data from the subreddit r/wallstreetbets. Here's the process broken down into sequential steps:
 
 1. **Using Reddit API**: The process begins by attempting to scrape data from the r/wallstreetbets subreddit using the Reddit API. The API is successfully accessed using a tool like Postman, but there's a limitation encountered: it's not possible to filter posts by date.
