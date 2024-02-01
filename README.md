@@ -92,6 +92,12 @@ Alexander Soldatkin (https://github.com/alex-soldatkin)
 
 ### Work Contribution
 
+|Group Members|Data Collections|Data Cleaning|Visualisations|Code Quality Check|Report|
+|-----------|-----------|-----------|-----------|-----------|-----------|
+|Adnan Baig|-----------|-----------|-----------|-----------|-----------|
+|Anna Jin|-----------|-----------|-----------|-----------|-----------|
+|Hailey Stevens|-----------|-----------|-----------|-----------|-----------|
+
 
 *If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.*
 
@@ -100,7 +106,8 @@ Alexander Soldatkin (https://github.com/alex-soldatkin)
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License, see [LICENSE](LICENSE)
+…you can use a relative link
 
 
 ## Badges
