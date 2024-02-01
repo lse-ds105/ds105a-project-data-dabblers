@@ -1,0 +1,12 @@
+---
+title: "data_dabblers"
+---
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# Dabbling in Data
+
+## Team Members
+- Adnan Baig | BSc in Economics
+- Anna Jin | BSc in Economics
+- Hailey Stevens | BA in History
