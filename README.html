@@ -46,103 +46,95 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://classroom.github.com/a/WKKzpWVj"><img src="https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg" class="img-fluid figure-img" alt="Review Assignment Due Date"></a></p>
-<figcaption>Review Assignment Due Date</figcaption>
-</figure>
-</div>
-<section id="data-dabblers-analysis-of-gamestop-short-squeeze" class="level1">
-<h1>Data Dabblers: Analysis of GameStop Short Squeeze</h1>
+<section id="analysis-of-the-2020-2021-gamestop-short-squeeze" class="level1">
+<h1>Analysis of the 2020-2021 GameStop Short Squeeze</h1>
 <section id="table-of-contents" class="level2">
-<h2 class="anchored" data-anchor-id="table-of-contents">Table of Contents</h2>
-<ul>
+<h2 class="anchored" data-anchor-id="table-of-contents"><em>Table of Contents</em></h2>
+<ol type="1">
 <li><a href="#description">Description</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#usage">Usage</a></li>
+<li><a href="#data">Data</a></li>
+<li><a href="#visualisations">Visualisations</a></li>
 <li><a href="#credits">Credits</a></li>
 <li><a href="#license">License</a></li>
-</ul>
+<li><a href="#tests">Tests</a></li>
+</ol>
 </section>
 <section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
+<h2 class="anchored" data-anchor-id="description">DESCRIPTION</h2>
+<p>Welcome to Project Data Dabblers, which delves into the GameStop (GME) short squeeze phenomenon. Our primary objective is to shed light on the causation and degree of influence the Reddit community, r/wallstreetbets, had on the stock price of GameStop. We conducted an analysis of GME stock data in relation to r/wallstreetbets posts, over the period December 2020 to March 2021.</p>
 <section id="motivation" class="level3">
-<h3 class="anchored" data-anchor-id="motivation">Motivation</h3>
+<h3 class="anchored" data-anchor-id="motivation"><em>Motivation</em></h3>
+<p>Our project stems from a fascination with this event and its disruption to traditional financial norms, its empowerment of online communities, and its ensuing impact on regulation. Through our analysis, we aim to reveal the role of online communities on stock market behaviour.</p>
 </section>
-<section id="data" class="level3">
-<h3 class="anchored" data-anchor-id="data">Data</h3>
-<section id="data-sources" class="level4">
-<h4 class="anchored" data-anchor-id="data-sources">Data sources:</h4>
-<p>Alpha Vantage API</p>
-<p>CSV file of data scraped from Reddit API - requested from LSE alumni with access to Reddit API.</p>
-</section>
-<section id="process-of-scraping-and-cleaning-reddit-data" class="level4">
-<h4 class="anchored" data-anchor-id="process-of-scraping-and-cleaning-reddit-data">Process of scraping and cleaning Reddit data:</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/reddit_scraping_process.png" title="Reddit Data Scraping Process" class="img-fluid figure-img"></p>
-<figcaption>reddit_scraping_process</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/reddit_cleaning_process.png" title="Reddit Data Cleaning Process" class="img-fluid figure-img"></p>
-<figcaption>reddit_cleaning_process</figcaption>
-</figure>
-</div>
-<p><img src="images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300"></p>
-<p>Screenshot of cleaned Reddit data frame:</p>
-<p><img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto"></p>
-</section>
-<section id="process-of-scraping-and-cleaning-gamestop-stock-data" class="level4">
-<h4 class="anchored" data-anchor-id="process-of-scraping-and-cleaning-gamestop-stock-data">Process of scraping and cleaning GameStop stock data:</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/gme_scraping_process.png" title="GameStop Stock Data Scraping Process" class="img-fluid figure-img"></p>
-<figcaption>gme_scraping_process</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/gme_cleaning_process.png" title="GameStop Stock Data Cleaning Process" class="img-fluid figure-img"></p>
-<figcaption>gme_cleaning_process</figcaption>
-</figure>
-</div>
-<p>Screenshot of cleaned and merged GME data frame:</p>
-<p><img src="images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto"></p>
-</section>
-<section id="data-collected" class="level4">
-<h4 class="anchored" data-anchor-id="data-collected">Data collected:</h4>
-<p>Collected 5484 rows of GME stock price data from the Alpha Vantage API.</p>
-<p>Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.</p>
-</section>
-</section>
-<section id="exploratory-data-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="exploratory-data-analysis">Exploratory Data Analysis</h3>
-</section>
-<section id="visualisations" class="level3">
-<h3 class="anchored" data-anchor-id="visualisations">Visualisations</h3>
+<section id="context" class="level3">
+<h3 class="anchored" data-anchor-id="context"><em>Context</em></h3>
+<p>The GameStop short squeeze in early 2021 saw a remarkable surge in the stock price of GameStop (GME). This surge was orchestrated by retail investors, particularly through the Reddit community r/wallstreetbets. As these investors bought GME shares en masse, it forced hedge funds and institutional investors, who had bet against the stock, to cover their positions, causing GME’s price to skyrocket.</p>
 </section>
 </section>
 <section id="installation" class="level2">
-<h2 class="anchored" data-anchor-id="installation">Installation</h2>
-<p><em>What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.</em></p>
+<h2 class="anchored" data-anchor-id="installation">INSTALLATION</h2>
 <p>Alpha Vantage API key: 71F522PIQRFAFZZO</p>
 <section id="installation-for-macos" class="level3">
-<h3 class="anchored" data-anchor-id="installation-for-macos">Installation for MacOS</h3>
+<h3 class="anchored" data-anchor-id="installation-for-macos"><em>Installation for MacOS</em></h3>
 <p>Run code in the command line:</p>
 <p>pip install -r requirements.txt</p>
 </section>
 <section id="installation-for-windows" class="level3">
-<h3 class="anchored" data-anchor-id="installation-for-windows">Installation for Windows</h3>
+<h3 class="anchored" data-anchor-id="installation-for-windows"><em>Installation for Windows</em></h3>
 </section>
 </section>
 <section id="usage" class="level2">
-<h2 class="anchored" data-anchor-id="usage">Usage</h2>
+<h2 class="anchored" data-anchor-id="usage">USAGE</h2>
 <p><em>Provide instructions and examples for use. Include screenshots as needed.</em></p>
 </section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">DATA</h2>
+<section id="data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="data-sources"><em>Data Sources</em></h3>
+<ol type="1">
+<li>Alpha Vantage API</li>
+<li>CSV file of Reddit API data - sourced from LSE alumni</li>
+</ol>
+</section>
+<section id="collection-and-cleaning-of-reddit-data" class="level3">
+<h3 class="anchored" data-anchor-id="collection-and-cleaning-of-reddit-data"><em>Collection and Cleaning of Reddit Data</em></h3>
+<section id="relevant-folder-reddit-csv-files" class="level4">
+<h4 class="anchored" data-anchor-id="relevant-folder-reddit-csv-files">Relevant folder: <a href="data/reddit_data">Reddit CSV Files</a></h4>
+<p>Collection Process:</p>
+<p><img src="images/reddit_scraping_process.png" title="Reddit Data Scraping Process" class="img-fluid"></p>
+<p>Cleaning Process:</p>
+<p><img src="images/reddit_cleaning_process.png" title="Reddit Data Cleaning Process" class="img-fluid"></p>
+<p>Comparision of original data frame to cleaned data frame:</p>
+<p><img src="images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300"></p>
+<p>Header of cleaned Reddit data frame:</p>
+<p><img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto"></p>
+</section>
+</section>
+<section id="collection-and-cleaning-of-gamestock-stock-data" class="level3">
+<h3 class="anchored" data-anchor-id="collection-and-cleaning-of-gamestock-stock-data"><em>Collection and Cleaning of GameStock Stock Data</em></h3>
+<section id="relevant-folder-gme-json-files" class="level4">
+<h4 class="anchored" data-anchor-id="relevant-folder-gme-json-files">Relevant folder: <a href="data/gme_data">GME JSON Files</a></h4>
+<p>Collection Process:</p>
+<p><img src="images/gme_scraping_process.png" title="GameStop Stock Data Scraping Process" class="img-fluid"></p>
+<p>Cleaning Process:</p>
+<p><img src="images/gme_cleaning_process.png" title="GameStop Stock Data Cleaning Process" class="img-fluid"></p>
+<p>Header of cleaned and merged GME data frame:</p>
+<p><img src="images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto"></p>
+</section>
+</section>
+<section id="exploratory-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-data-analysis"><em>Exploratory Data Analysis</em></h3>
+<p>Collected 5484 rows of GME stock price data from the Alpha Vantage API.</p>
+<p>Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.</p>
+</section>
+</section>
+<section id="visualisations" class="level2">
+<h2 class="anchored" data-anchor-id="visualisations">VISUALISATIONS</h2>
+</section>
 <section id="credits" class="level2">
-<h2 class="anchored" data-anchor-id="credits">Credits</h2>
+<h2 class="anchored" data-anchor-id="credits">CREDITS</h2>
 <p>Adnan Baig (https://github.com/Wickederknave5)</p>
 <p>Anna Jin (https://github.com/annajin1)</p>
 <p>Hailey Stevens (https://github.com/haileystvns)</p>
@@ -160,12 +152,12 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group Members</th>
-<th>Data Collections</th>
-<th>Data Cleaning</th>
-<th>Visualisations</th>
-<th>Code Quality Check</th>
-<th>Report</th>
+<th>Contributors (%)</th>
+<th>Data Collections (%)</th>
+<th>Data Cleaning (%)</th>
+<th>Visualisations (%)</th>
+<th>Repository Organisation (%)</th>
+<th>Documentation (%)</th>
 </tr>
 </thead>
 <tbody>
@@ -187,11 +179,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>Hailey Stevens</td>
-<td>———–</td>
-<td>———–</td>
-<td>———–</td>
-<td>———–</td>
-<td>———–</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>——-</td>
+<td>80</td>
 </tr>
 </tbody>
 </table>
@@ -200,29 +192,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 <section id="license" class="level2">
-<h2 class="anchored" data-anchor-id="license">License</h2>
-<p>The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to <a href="https://choosealicense.com/">https://choosealicense.com/</a>.</p>
-</section>
-<section id="badges" class="level2">
-<h2 class="anchored" data-anchor-id="badges">Badges</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://img.shields.io/github/languages/top/lernantino/badmath.png" class="img-fluid figure-img"></p>
-<figcaption>badmath</figcaption>
-</figure>
-</div>
-<p>Badges aren’t necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you’re doing. Check out the badges hosted by <a href="https://shields.io/">shields.io</a>. You may not understand what they all represent now, but you will in time.</p>
-</section>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">Features</h2>
-<p>If your project has a lot of features, list them here.</p>
-</section>
-<section id="how-to-contribute" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-contribute">How to Contribute</h2>
-<p>If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The <a href="https://www.contributor-covenant.org/">Contributor Covenant</a> is an industry standard, but you can always write your own if you’d prefer.</p>
+<h2 class="anchored" data-anchor-id="license">LICENSE</h2>
+<p>MIT License, see <a href="LICENSE">LICENSE</a> for further information.</p>
 </section>
 <section id="tests" class="level2">
-<h2 class="anchored" data-anchor-id="tests">Tests</h2>
+<h2 class="anchored" data-anchor-id="tests">TESTS</h2>
 <p>Go the extra mile and write tests for your application. Then provide examples on how to run them here.</p>
 </section>
 </section>

@@ -1,86 +1,104 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WKKzpWVj)
+# Analysis of the 2020-2021 GameStop Short Squeeze
 
-# Data Dabblers: Analysis of GameStop Short Squeeze
+## *Table of Contents*
 
-## Table of Contents
-
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-
-## Description
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Data](#data)
+5. [Visualisations](#visualisations)
+6. [Credits](#credits)
+7. [License](#license)
+8. [Tests](#tests)
 
 
-### Motivation
+## DESCRIPTION
+
+Welcome to Project Data Dabblers, which delves into the GameStop (GME) short squeeze phenomenon. Our primary objective is to shed light on the causation and degree of influence the Reddit community, r/wallstreetbets, had on the stock price of GameStop. We conducted an analysis of GME stock data in relation to r/wallstreetbets posts, over the period December 2020 to March 2021. 
 
 
-### Data
+### *Motivation*
 
-#### Data sources:
-
-Alpha Vantage API
-
-CSV file of data scraped from Reddit API - requested from LSE alumni with access to Reddit API.
-
-#### Process of scraping and cleaning Reddit data:
-
-![reddit_scraping_process](images/reddit_scraping_process.png "Reddit Data Scraping Process")
-
-![reddit_cleaning_process](images/reddit_cleaning_process.png "Reddit Data Cleaning Process")
-
-<img src="images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300"> <img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
-
-Screenshot of cleaned Reddit data frame:
-
-<img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
-
-#### Process of scraping and cleaning GameStop stock data:
-
-![gme_scraping_process](images/gme_scraping_process.png "GameStop Stock Data Scraping Process")
-
-![gme_cleaning_process](images/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
-
-Screenshot of cleaned and merged GME data frame:
-
-<img src="images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto">
-
-#### Data collected:
-
-Collected 5484 rows of GME stock price data from the Alpha Vantage API.
+Our project stems from a fascination with this event and its disruption to traditional financial norms, its empowerment of online communities, and its ensuing impact on regulation. Through our analysis, we aim to reveal the role of online communities on stock market behaviour.
 
 
-Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
+### *Context*
+
+The GameStop short squeeze in early 2021 saw a remarkable surge in the stock price of GameStop (GME). This surge was orchestrated by retail investors, particularly through the Reddit community r/wallstreetbets. As these investors bought GME shares en masse, it forced hedge funds and institutional investors, who had bet against the stock, to cover their positions, causing GME's price to skyrocket.
 
 
-### Exploratory Data Analysis
-
-
-### Visualisations
-
-
-## Installation
-
-*What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.*
+## INSTALLATION
 
 Alpha Vantage API key: 71F522PIQRFAFZZO
 
-### Installation for MacOS
+### *Installation for MacOS*
 
 Run code in the command line:
 
 pip install -r requirements.txt
 
-### Installation for Windows
+### *Installation for Windows*
 
-## Usage
+
+## USAGE
 
 *Provide instructions and examples for use. Include screenshots as needed.*
 
 
-## Credits
+## DATA
+
+### *Data Sources*
+
+1. Alpha Vantage API
+2. CSV file of Reddit API data - sourced from LSE alumni
+
+### *Collection and Cleaning of Reddit Data*
+#### Relevant folder: [Reddit CSV Files](data/reddit_data)
+
+Collection Process:
+
+![](images/reddit_scraping_process.png "Reddit Data Scraping Process")
+
+Cleaning Process:
+
+![](images/reddit_cleaning_process.png "Reddit Data Cleaning Process")
+
+Comparision of original data frame to cleaned data frame:
+
+<img src="images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300">
+<img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
+
+Header of cleaned Reddit data frame:
+
+<img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
+
+
+### *Collection and Cleaning of GameStock Stock Data*
+#### Relevant folder: [GME JSON Files](data/gme_data)
+
+Collection Process:
+
+![](images/gme_scraping_process.png "GameStop Stock Data Scraping Process")
+
+Cleaning Process:
+
+![](images/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
+
+Header of cleaned and merged GME data frame:
+
+<img src="images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto">
+
+
+### *Exploratory Data Analysis*
+Collected 5484 rows of GME stock price data from the Alpha Vantage API.
+
+Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
+
+
+## VISUALISATIONS
+
+
+## CREDITS
 
 Adnan Baig (https://github.com/Wickederknave5)
 
@@ -92,11 +110,11 @@ Alexander Soldatkin (https://github.com/alex-soldatkin)
 
 ### Work Contribution
 
-|Group Members|Data Collections|Data Cleaning|Visualisations|Code Quality Check|Report|
+|Contributors (%)|Data Collections (%)|Data Cleaning (%)|Visualisations (%)|Repository Organisation (%)|Documentation (%)|
 |-----------|-----------|-----------|-----------|-----------|-----------|
 |Adnan Baig|-----------|-----------|-----------|-----------|-----------|
 |Anna Jin|-----------|-----------|-----------|-----------|-----------|
-|Hailey Stevens|-----------|-----------|-----------|-----------|-----------|
+|Hailey Stevens|N/A|N/A|N/A|-------|80|
 
 
 *If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.*
@@ -104,29 +122,11 @@ Alexander Soldatkin (https://github.com/alex-soldatkin)
 *If you followed tutorials, include links to those here as well.*
 
 
-## License
+## LICENSE
 
-MIT License, see [LICENSE](LICENSE)
-…you can use a relative link
-
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+MIT License, see [LICENSE](LICENSE) for further information.
 
 
-## Features
-
-If your project has a lot of features, list them here.
-
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-
-## Tests
+## TESTS
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
