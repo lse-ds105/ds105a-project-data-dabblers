@@ -1,3 +1,24 @@
+Project description:
+
+What your application does?
+
+
+What made you curious about this kind of data in the first place?
+
+
+How did you gather the data?  Why you used the technologies you used?
+
+
+What is in the data?  What does it look like in general?
+
+
+What did you find out about the data?  (Exploratory Data Analysis)
+
+
+Some of the challenges you faced and features you hope to implement in the future.
+
+
+
 # Analysis of the 2020-2021 GameStop Short Squeeze
 
 ## *Table of Contents*
@@ -91,7 +112,6 @@ Header of cleaned and merged GME data frame:
 
 ### *Exploratory Data Analysis*
 Collected 5484 rows of GME stock price data from the Alpha Vantage API.
-
 Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
 
 
