@@ -1,19 +1,6 @@
 ---
-title: "data_dabblers"
+title: "Exploratory Data Analysis"
 ---
-
-# Dabbling in Data
-
-## Team Members
-- Adnan Baig | BSc in Economics
-- Anna Jin | BSc in Economics
-- Hailey Stevens | BA in History
-
-
-
-
-
-
 
 The flowchart describes a step-by-step process for scraping data from the subreddit r/wallstreetbets. Here's the process broken down into sequential steps:
 
@@ -30,3 +17,4 @@ The flowchart describes a step-by-step process for scraping data from the subred
 6. **Requesting CSV Version of Reddit API**: Finally, there's a request made for a CSV version of the Reddit API data. This step is marked as a success, indicating that obtaining a CSV file with the desired data from the Reddit API was achieved.
 
 Throughout these steps, there are various attempts and strategies employed to overcome the limitations of different APIs and methods for scraping data from Reddit. The process shows persistence in finding a solution to extract the required data, eventually leading to a successful outcome.
+
