@@ -1,53 +1,6 @@
 project:
   type: website
   output-dir: docs 
-
-website:
-  title: "data_dabblers"
-  navbar:
-    backgroud: primary
-    search: true
-    left:
-      - text: "Home"
-        file: about.qmd
-      - sidebar:eda
-      - sidebar:visualisations
-      - sidebar:conclusions
-      - sidebar:contributions
-
-  sidebar:
-    - id: eda
-      title: "Exploratory Data Analysis"
-      style: "docked"
-      background: dark
-      collapse-level: 2
-      contents: 
-        - text: "Exploratory Data Analysis"
-          href: eda.qmd
-        
-    - id: visualisations
-      title: "Visualisations"
-      background: dark
-      collapse-level: 2
-      contents:
-        - text: "Visualisations"
-          href: visualisations.qmd
-        
-    - id: conclusions
-      title: "Conclusions"
-      background: dark
-      collapse-level: 2
-      contents: :
-        - text: "Conclusions"
-          href: conclusions.qmd
-        
-    - id: contributions
-      title: "Contributions"
-      background: dark
-      collapse-level: 2
-      contents: 
-        - text: "Contributions"
-          href: contributions.qmd
     
     
 format:

@@ -1,5 +1,6 @@
 ---
 title: "About"
+format: html
 ---
 
 # Dabbling in Data

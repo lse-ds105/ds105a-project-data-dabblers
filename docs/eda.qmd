@@ -1,5 +1,6 @@
 ---
 title: "Exploratory Data Analysis"
+format: html
 ---
 
 The flowchart describes a step-by-step process for scraping data from the subreddit r/wallstreetbets. Here's the process broken down into sequential steps:
