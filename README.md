@@ -29,8 +29,6 @@ The GameStop short squeeze in early 2021 saw a remarkable surge in the stock pri
 
 ## INSTALLATION
 
-Alpha Vantage API key: 71F522PIQRFAFZZO
-
 ### *Installation for MacOS*
 
 Run code in the command line:
