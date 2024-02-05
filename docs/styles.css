@@ -5,21 +5,22 @@ body {
     color: white;
   }
   
-.navbar {
+.navbar-container {
     background-color: hotpink !important;
   }
 
-.navbar a, a:visited {
+.nav-item a, .nav-item a:visited {
     color: black;
   }
 
-.sidebar {
+.quarto-sidebar{
     background-color: black !important;
 }
 
-.sidebar a, a:visited {
+.sidebar-item a, .sidebar-item a:visited {
     color: #26f86c;
   }
 
-
-#6a5acd
+.toc-active a, .toc-active a:visited {
+    color: #6a5acd;
+  }
