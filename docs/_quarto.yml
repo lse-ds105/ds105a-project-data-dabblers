@@ -14,8 +14,8 @@ website:
     background: primary
     search: true
     left:
-      - markdown: |
-          [![Menu](images/menu.png)](index.html)
+      - href: index.html
+        icon: [Menu](images/menu.png)
       - sidebar:eda
       - sidebar:visualisations
       - text: "Conclusions"
