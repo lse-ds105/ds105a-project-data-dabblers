@@ -1,5 +1,5 @@
 ---
-title: "Data Dabblers"
+title: "Data Dabblers Home Page"
 format: html
 
 
@@ -10,7 +10,7 @@ website:
     search: true
     left:
       - text: "Home"
-        file: about.qmd
+        file: index.qmd
       - sidebar:eda
       - sidebar:visualisations
       - sidebar:conclusions
