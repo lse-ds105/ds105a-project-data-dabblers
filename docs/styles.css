@@ -1,1 +1,19 @@
 /* css styles */
+
+.navbar {
+    background-color: hotpink !important;
+  }
+  
+  body {
+    background-color: black !important;
+    color: white;
+  }
+  
+  a, a:visited {
+    color: #39FF14;
+  }
+  
+  .navbar a, .navbar a:visited {
+    color: black;
+  }
+  
