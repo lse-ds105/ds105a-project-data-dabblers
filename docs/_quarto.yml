@@ -10,7 +10,7 @@ format:
 
 website:
   title: "Data Dabblers"
-  navbar:
+  navbar: 
     search: true
     left:
       - text: "Overview"
