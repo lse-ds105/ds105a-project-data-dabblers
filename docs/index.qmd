@@ -17,5 +17,5 @@ The GameStop short squeeze in early 2021 saw a remarkable surge in the stock pri
 
 
 <div id="bottom-left-image">
-    <img src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/images/tree.png" alt="Tree">
+    <img src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/images/tree.png" alt="Tree"/>
 </div>
