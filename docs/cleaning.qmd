@@ -1,0 +1,44 @@
+---
+title: "Data Cleaning"
+format: html
+---
+
+## r/wallstreetbets Posts
+
+The image you've uploaded describes a process for cleaning and preparing data from the subreddit r/wallstreetbets for analysis. Here's a step-by-step explanation:
+
+1. **r/wallstreetbets Data**: This is the raw data from the r/wallstreetbets subreddit. It likely contains various fields of metadata for each post, such as scores, number of comments, and timestamps.
+
+2. **Formatted 'score' and 'num_comments' columns to 'int'**: The first step in processing the data is to format the 'score' and 'num_comments' fields as integers. This is necessary because these fields are often numerical and need to be in a consistent format (integer type) for quantitative analysis.
+
+3. **Formatted 'date' column to 'datetime64', consistent with GME stock price data**: Next, the 'date' field is formatted to 'datetime64', a specific date-time format in many programming languages that allows for precise time series analysis. This step is crucial for aligning the Reddit data with GameStop (GME) stock price data, which will also be in a date-time format.
+
+4. **Used groupby method to group posts from same date**: The third step is to group the posts by date. This is done using a 'groupby' method, which is a common operation in data manipulation libraries like pandas in Python. Grouping by date allows you to aggregate data, such as calculating the total number of posts, average score, or total number of comments for each date.
+
+5. **Outcome: cleaned dataframe of Reddit data**: The final output is a cleaned dataframe (a table-like data structure) containing the processed Reddit data. A cleaned dataframe typically means that the data is free of inconsistencies, is formatted correctly, and is ready for analysis or to be merged with other datasets, like the GME stock price data.
+
+This process is typical of data preprocessing in data science, where raw data is transformed into a more usable format before analysis.
+
+
+
+## GameStop Stock Prices
+
+The image you've provided is a flowchart describing a process for obtaining and cleaning stock data for GameStop (GME) from the Alpha Vantage API. Here is the step-by-step explanation:
+
+1. **Alpha Vantage API**: This is the source of the stock data. Alpha Vantage provides an API from which you can request financial data, including stock prices.
+
+2. **Scraped all daily data from December 2020 to present day**: The first step in the process is to send a request to the Alpha Vantage API to obtain all available daily stock data for GME, starting from December 2020 up to the current day.
+
+3. **Filter by date, from December 2020 to end of March 2021**: After obtaining the data, the next step is to filter it to include only the data within a specific time frame. In this case, the data is filtered to retain only the information from December 2020 to the end of March 2021.
+
+4. **Converted data from 'objects' to the following**:
+   - **Date = 'datetime64'**: The date data is converted to 'datetime64' format, which is a standard format for handling dates and times in data analysis, allowing for easy sorting, filtering, and manipulation based on time.
+   - **Open = 'float64'**
+   - **High = 'float64'**
+   - **Low = 'float64'**
+   - **Close = 'float64'**: The stock prices for the open, high, low, and close of each day are converted to 'float64', which is a data type suitable for representing floating-point numbers and allows for precise numerical analysis.
+   - **Volume = 'int32'**: The trading volume data is converted to 'int32', which is a data type used for representing integer numbers and is sufficient for volume data, which represents the number of shares traded and does not require a decimal point.
+
+5. **Outcome: cleaned dataframe of GME stock data**: The final outcome is a cleaned dataframe of the GME stock data. A cleaned dataframe is one where the data has been processed to ensure that it is in a uniform and appropriate format for analysis. It implies that the data is now structured and ready for any subsequent analysis or visualization tasks.
+
+This flowchart outlines a common data preprocessing task in financial data analysis, where raw data from an API is collected, filtered by a specific time frame, converted to suitable data types, and then cleaned for further analysis.
