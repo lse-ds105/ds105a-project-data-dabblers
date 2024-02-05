@@ -16,5 +16,8 @@
   
 .sidebar {
     background-color: black !important;
+}
+
+.sidebar a, a:visited {
     color: rgb(38, 248, 108);
   }
