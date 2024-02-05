@@ -7,11 +7,10 @@ body {
   
 .navbar {
     background-color: hotpink !important;
-    color: black;
   }
 
 .navbar a, a:visited {
-    color: #6a5acd;
+    color: black;
   }
 
 .sidebar {
@@ -21,3 +20,6 @@ body {
 .sidebar a, a:visited {
     color: #26f86c;
   }
+
+
+#6a5acd
