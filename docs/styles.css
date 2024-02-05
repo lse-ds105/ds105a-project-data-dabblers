@@ -24,11 +24,3 @@ body {
 .toc-active ul, .toc-active ul:visited {
     color: #4630d5;
   }
-
-.custom-navbar {
-  background-image: url("ds105a-project-data-dabblers/images/data_dabblers.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 80px;
-}

@@ -9,12 +9,12 @@ format:
     toc: true
 
 website:
-  title: "Data Dabblers"
+  title: ""
   navbar: 
+    logo-href: ds105a-project-data-dabblers/images/data_dabblers.png
     tools:
       - icon: github
-        collapse-level: 2
-        contents:
+        menu:
           - text: Source Code
             url:  https://github.com/lse-ds105/ds105a-project-data-dabblers
           - text: Report a Bug
