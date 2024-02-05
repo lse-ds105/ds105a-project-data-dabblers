@@ -14,7 +14,7 @@ website:
     background: primary
     search: true
     left:
-      - icon: [Menu](images/menu.png)
+      - icon: images/menu.png
         href: index.html
       - sidebar:eda
       - sidebar:visualisations
