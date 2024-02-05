@@ -11,7 +11,7 @@ format:
 website:
   title: "Data Dabblers"
   navbar: 
-    logo-href: ../images/data_dabblers.png
+    logo: ../images/data_dabblers.png
     tools:
       - icon: github
         menu:
