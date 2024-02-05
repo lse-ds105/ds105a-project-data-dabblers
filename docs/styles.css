@@ -1,23 +1,23 @@
 /* css styles */
   
-  body {
+body {
     background-color: black !important;
     color: white;
   }
   
-  a, a:visited {
-    color: #6a5acd;
-  }
-  
-  .navbar {
+.navbar {
     background-color: hotpink !important;
     color: black;
   }
-  
+
+.navbar a, a:visited {
+    color: #6a5acd;
+  }
+
 .sidebar {
     background-color: black !important;
 }
 
 .sidebar a, a:visited {
-    color: rgb(38, 248, 108);
+    color: #26f86c;
   }
