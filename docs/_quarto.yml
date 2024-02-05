@@ -14,7 +14,8 @@ website:
     background: primary
     search: true
     left:
-      - html: '<a href="index.html"><img src="images/menu.png" alt="Clickable Image"></a>'
+      - markdown: |
+          [![Menu](images/menu.png)](index.html)
       - sidebar:eda
       - sidebar:visualisations
       - text: "Conclusions"
