@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Dabblers - Contributions</title>
+<title>Data Dabblers - Data Collection</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Conclusions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./contributions.html" aria-current="page"> 
+    <a class="nav-link" href="./contributions.html"> 
 <span class="menu-text">Contributions</span></a>
   </li>  
 </ul>
@@ -147,18 +147,47 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./collection.html">Data Collection</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./collection.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Data Collection</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cleaning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Cleaning</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#team-members" id="toc-team-members" class="nav-link active" data-scroll-target="#team-members">Team Members</a></li>
-  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance">Guidance</a></li>
+  <li><a href="#rwallstreetbets-posts" id="toc-rwallstreetbets-posts" class="nav-link active" data-scroll-target="#rwallstreetbets-posts">r/wallstreetbets Posts</a></li>
+  <li><a href="#gamestop-stock-prices" id="toc-gamestop-stock-prices" class="nav-link" data-scroll-target="#gamestop-stock-prices">GameStop Stock Prices</a></li>
   </ul>
 </nav>
     </div>
@@ -167,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contributions</h1>
+<h1 class="title">Data Collection</h1>
 </div>
 
 
@@ -184,20 +213,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="team-members" class="level2">
-<h2 class="anchored" data-anchor-id="team-members">Team Members</h2>
-<ul>
-<li><a href="https://github.com/Wickederknave5">Adnan Baig | BSc in Economics</a></li>
-<li><a href="https://github.com/annajin1">Anna Jin | BSc in Economics</a></li>
-<li><a href="https://github.com/yu-hai-li">Hailey Stevens | BA in History</a></li>
-</ul>
+<section id="rwallstreetbets-posts" class="level2">
+<h2 class="anchored" data-anchor-id="rwallstreetbets-posts">r/wallstreetbets Posts</h2>
+<p>The flowchart describes a step-by-step process for scraping data from the subreddit r/wallstreetbets. Here’s the process broken down into sequential steps:</p>
+<ol type="1">
+<li><p><strong>Using Reddit API</strong>: The process begins by attempting to scrape data from the r/wallstreetbets subreddit using the Reddit API. The API is successfully accessed using a tool like Postman, but there’s a limitation encountered: it’s not possible to filter posts by date.</p></li>
+<li><p><strong>Accessing Pushshift API</strong>: Since the Reddit API has limitations, the next step is to try using the Pushshift API, which contains post data from all subreddits, including historical data from Reddit. However, there’s an issue as the terms of conditions for the Pushshift API have changed and it is no longer available for research purposes, preventing access to this data.</p></li>
+<li><p><strong>Scraping Hidden Reddit API Data by Date</strong>: Despite not being able to use the Pushshift API for this purpose, the process finds success by scraping hidden Reddit API data with the ability to filter by date, thus overcoming the limitation faced in the first step.</p></li>
+<li><p><strong>Attempted Scraping Using Selenium</strong>: There’s also an attempt made to scrape the subreddit using Selenium, a tool for automating web browsers. This attempt results in only being able to scrape the 1000 most recent posts from r/wallstreetbets, which suggests a limitation on the volume of data that can be scraped in a single go.</p></li>
+<li><p><strong>Using Another Person’s Pushshift API Access</strong>: There’s an attempt to use someone else’s access to the Pushshift API. Unfortunately, this does not work and access to the data through this method is unsuccessful.</p></li>
+<li><p><strong>Requesting CSV Version of Reddit API</strong>: Finally, there’s a request made for a CSV version of the Reddit API data. This step is marked as a success, indicating that obtaining a CSV file with the desired data from the Reddit API was achieved.</p></li>
+</ol>
+<p>Throughout these steps, there are various attempts and strategies employed to overcome the limitations of different APIs and methods for scraping data from Reddit. The process shows persistence in finding a solution to extract the required data, eventually leading to a successful outcome.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/reddit_scraping_process.png" class="img-fluid figure-img"></p>
+<figcaption>Reddit Flowchart</figcaption>
+</figure>
+</div>
 </section>
-<section id="guidance" class="level2">
-<h2 class="anchored" data-anchor-id="guidance">Guidance</h2>
-<ul>
-<li><a href="https://github.com/alex-soldatkin">Alexander Soldatkin</a></li>
-<li><a href="https://github.com/jonjoncardoso">Jon Cardoso-Silva</a></li>
-</ul>
+<section id="gamestop-stock-prices" class="level2">
+<h2 class="anchored" data-anchor-id="gamestop-stock-prices">GameStop Stock Prices</h2>
+<p>The image you’ve provided appears to be a diagram representing a process for obtaining stock data. Here’s a step-by-step explanation of the process depicted:</p>
+<ol type="1">
+<li><p><strong>Connect to the Alpha Vantage API</strong>: Alpha Vantage provides APIs for accessing stock market data. To start the process, you need to connect to the Alpha Vantage API, which typically involves using an API key that you can obtain from Alpha Vantage’s website.</p></li>
+<li><p><strong>Scrape all GameStop stock data from December 2020 to present day</strong>: Once connected to the API, the next step is to scrape, or programmatically request, the stock data for GameStop (GME) covering the period from December 2020 to the current date. You would use the appropriate API endpoints to request historical data for the specified period.</p></li>
+<li><p><strong>SUCCESS</strong>: This indicates that the data retrieval was successful. In the context of a program or script, this could mean that the data was successfully fetched and possibly saved to a database or a file for further analysis.</p></li>
+</ol>
 
 
 </section>
