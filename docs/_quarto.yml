@@ -15,7 +15,7 @@ website:
     search: true
     left:
       - href: index.html
-        icon: [Menu](images/menu.png)
+        icon: images/menu.png
       - sidebar:eda
       - sidebar:visualisations
       - text: "Conclusions"
