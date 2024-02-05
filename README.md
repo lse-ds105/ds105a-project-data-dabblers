@@ -33,7 +33,7 @@ Some of the challenges you faced and features you hope to implement in the futur
 8. [Tests](#tests)
 
 
-## DESCRIPTION
+## PROJECT OVERVIEW
 
 Welcome to Project Data Dabblers, which delves into the GameStop (GME) short squeeze phenomenon. Our primary objective is to shed light on the causation and degree of influence the Reddit community, r/wallstreetbets, had on the stock price of GameStop. We conducted an analysis of GME stock data in relation to r/wallstreetbets posts, over the period December 2020 to March 2021. 
 

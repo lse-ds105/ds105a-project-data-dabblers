@@ -21,6 +21,6 @@ body {
     color: #26f86c;
   }
 
-.toc-active ul, .toc-active ul:visited {
+.toc-active a, .toc-active a:visited {
     color: #6a5acd;
   }

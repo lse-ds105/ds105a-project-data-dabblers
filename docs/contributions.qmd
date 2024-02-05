@@ -3,8 +3,11 @@ title: "Contributions"
 format: html
 ---
 
-
 ## Team Members
-- Adnan Baig | BSc in Economics
-- Anna Jin | BSc in Economics
-- Hailey Stevens | BA in History
+- [Adnan Baig | BSc in Economics](https://github.com/Wickederknave5)
+- [Anna Jin | BSc in Economics](https://github.com/annajin1)
+- [Hailey Stevens | BA in History](https://github.com/yu-hai-li)
+
+## Guidance
+- [Alexander Soldatkin](https://github.com/alex-soldatkin)
+- [Jon Cardoso-Silva](https://github.com/jonjoncardoso)

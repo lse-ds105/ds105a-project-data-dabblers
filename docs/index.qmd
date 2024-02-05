@@ -1,55 +1,13 @@
 ---
 title: "Dabbling in Data"
 format: html
-
-
-website:
-  title: "data_dabblers"
-  navbar:
-    backgroud: primary
-    search: true
-    left:
-      - text: "Home"
-        file: index.qmd
-      - sidebar:eda
-      - sidebar:visualisations
-      - sidebar:conclusions
-      - sidebar:contributions
-
-  sidebar:
-    - id: eda
-      title: "Exploratory Data Analysis"
-      style: "docked"
-      background: dark
-      collapse-level: 2
-      contents: 
-        - text: "Exploratory Data Analysis"
-          href: eda.qmd
-        
-    - id: visualisations
-      title: "Visualisations"
-      background: dark
-      collapse-level: 2
-      contents:
-        - text: "Visualisations"
-          href: visualisations.qmd
-        
-    - id: conclusions
-      title: "Conclusions"
-      background: dark
-      collapse-level: 2
-      contents:
-        - text: "Conclusions"
-          href: conclusions.qmd
-        
-    - id: contributions
-      title: "Contributions"
-      background: dark
-      collapse-level: 2
-      contents: 
-        - text: "Contributions"
-          href: contributions.qmd
-
 ---
 
-Hello there, testing testing 123
+## Project Overview
+Welcome to Dabbling in Data, a project which delves into the GameStop (GME) short squeeze phenomenon. Our primary objective is to shed light on the causation and degree of influence the Reddit community, r/wallstreetbets, had on the stock price of GameStop. We conducted an analysis of GME stock data in relation to r/wallstreetbets posts, over the period December 2020 to March 2021. 
+
+## Our Motivation
+Our project stems from a fascination with this event and its disruption to traditional financial norms, its empowerment of online communities, and its ensuing impact on regulation. Through our analysis, we aim to reveal the role of online communities on stock market behaviour.
+
+## Contextualising Our Project
+The GameStop short squeeze in early 2021 saw a remarkable surge in the stock price of GameStop (GME). This surge was orchestrated by retail investors, particularly through the Reddit community r/wallstreetbets. As these investors bought GME shares en masse, it forced hedge funds and institutional investors, who had bet against the stock, to cover their positions, causing GME's price to skyrocket.

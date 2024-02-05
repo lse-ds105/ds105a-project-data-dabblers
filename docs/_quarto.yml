@@ -14,8 +14,8 @@ website:
     background: primary
     search: true
     left:
-      - href: index.html
-        icon: images/menu.png
+      - icon: [Menu](images/menu.png)
+        href: index.html
       - sidebar:eda
       - sidebar:visualisations
       - text: "Conclusions"

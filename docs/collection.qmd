@@ -3,6 +3,8 @@ title: "Data Collection"
 format: html
 ---
 
+## r/wallstreetbets Posts
+
 The flowchart describes a step-by-step process for scraping data from the subreddit r/wallstreetbets. Here's the process broken down into sequential steps:
 
 1. **Using Reddit API**: The process begins by attempting to scrape data from the r/wallstreetbets subreddit using the Reddit API. The API is successfully accessed using a tool like Postman, but there's a limitation encountered: it's not possible to filter posts by date.
@@ -19,3 +21,14 @@ The flowchart describes a step-by-step process for scraping data from the subred
 
 Throughout these steps, there are various attempts and strategies employed to overcome the limitations of different APIs and methods for scraping data from Reddit. The process shows persistence in finding a solution to extract the required data, eventually leading to a successful outcome.
 
+
+
+## GameStop Stock Prices
+
+The image you've provided appears to be a diagram representing a process for obtaining stock data. Here's a step-by-step explanation of the process depicted:
+
+1. **Connect to the Alpha Vantage API**: Alpha Vantage provides APIs for accessing stock market data. To start the process, you need to connect to the Alpha Vantage API, which typically involves using an API key that you can obtain from Alpha Vantage's website.
+
+2. **Scrape all GameStop stock data from December 2020 to present day**: Once connected to the API, the next step is to scrape, or programmatically request, the stock data for GameStop (GME) covering the period from December 2020 to the current date. You would use the appropriate API endpoints to request historical data for the specified period.
+
+3. **SUCCESS**: This indicates that the data retrieval was successful. In the context of a program or script, this could mean that the data was successfully fetched and possibly saved to a database or a file for further analysis.
