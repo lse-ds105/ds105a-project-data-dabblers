@@ -6,17 +6,17 @@ project:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: docs/styles.css
     toc: true
 
 website:
   title: "data_dabblers"
   navbar:
-    backgroud: primary
+    background: primary
     search: true
     left:
       - text: "Home"
-        file: index.qmd
+        href: index.html
       - sidebar:eda
       - sidebar:visualisations
       - sidebar:conclusions
@@ -30,7 +30,7 @@ website:
       collapse-level: 2
       contents: 
         - text: "Exploratory Data Analysis"
-          href: eda.qmd
+          href: eda.html
 
     - id: visualisations
       title: "Visualisations"
@@ -38,15 +38,15 @@ website:
       collapse-level: 2
       contents:
         - text: "Visualisations"
-          href: visualisations.qmd
+          href: visualisations.html
 
     - id: conclusions
       title: "Conclusions"
       background: dark
       collapse-level: 2
-      contents: :
+      contents:
         - text: "Conclusions"
-          href: conclusions.qmd
+          href: conclusions.html
 
     - id: contributions
       title: "Contributions"
@@ -54,4 +54,4 @@ website:
       collapse-level: 2
       contents: 
         - text: "Contributions"
-          href: contributions.qmd
+          href: contributions.html
