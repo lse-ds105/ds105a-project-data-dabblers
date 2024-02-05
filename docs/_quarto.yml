@@ -1,4 +1,5 @@
 project:
+  title: "ds105a-project-data-dabblers"
   type: website
   output-dir: docs 
     
