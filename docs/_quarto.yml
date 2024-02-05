@@ -9,9 +9,9 @@ format:
     toc: true
 
 website:
-  title: ""
+  title: "Data Dabblers"
   navbar: 
-    logo-href: ds105a-project-data-dabblers/images/data_dabblers.png
+    logo-href: ../images/data_dabblers.png
     tools:
       - icon: github
         menu:
