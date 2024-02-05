@@ -9,12 +9,12 @@ format:
     toc: true
 
 website:
-  title: "Dabbling in Data"
+  title: "Data Dabblers"
   navbar:
     background: primary
     search: true
     left:
-      - text: '<img src="images/Menu.png" alt="Menu" />'
+      - text: [Menu icon](images/menu.png)
         href: index.html
       - sidebar:eda
       - sidebar:visualisations

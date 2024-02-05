@@ -1,5 +1,5 @@
 ---
-title: "Data Dabblers Home Page"
+title: "Dabbling in Data"
 format: html
 
 
