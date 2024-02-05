@@ -14,7 +14,7 @@ website:
     background: primary
     search: true
     left:
-      - html: '<img src="images/Menu.png" alt="Home Icon" />'
+      - text: '<img src="images/Menu.png" alt="Menu" />'
         href: index.html
       - sidebar:eda
       - sidebar:visualisations
