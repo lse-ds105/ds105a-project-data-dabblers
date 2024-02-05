@@ -18,7 +18,14 @@
   }
   
 .sidebar {
-    background-color: #39FF14 !important;
-    color: black;
+    background-color: black !important;
+    color: hotpink;
   }
 
+.navbar .dropdown-menu {
+    background-color: #39FF14;
+}
+
+.navbar .dropdown-menu a {
+    color: black;
+}
