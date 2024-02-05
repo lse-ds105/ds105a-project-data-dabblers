@@ -6,11 +6,11 @@ project:
 format:
   html:
     theme: cosmo
-    css: docs/styles.css
+    css: styles.css
     toc: true
 
 website:
-  title: "data_dabblers"
+  title: "Dabbling in Data"
   navbar:
     background: primary
     search: true
@@ -19,8 +19,10 @@ website:
         href: index.html
       - sidebar:eda
       - sidebar:visualisations
-      - sidebar:conclusions
-      - sidebar:contributions
+      - text: "Conclusions"
+        href: conclusions.html
+      - text: "Contributions"
+        href: contributions.html
 
   sidebar:
     - id: eda
@@ -29,8 +31,10 @@ website:
       background: dark
       collapse-level: 2
       contents: 
-        - text: "Exploratory Data Analysis"
-          href: eda.html
+        - text: "Data Collection"
+          href: collection.html
+        - text: "Data Cleaning"
+          href: cleaning.html
 
     - id: visualisations
       title: "Visualisations"
@@ -39,19 +43,3 @@ website:
       contents:
         - text: "Visualisations"
           href: visualisations.html
-
-    - id: conclusions
-      title: "Conclusions"
-      background: dark
-      collapse-level: 2
-      contents:
-        - text: "Conclusions"
-          href: conclusions.html
-
-    - id: contributions
-      title: "Contributions"
-      background: dark
-      collapse-level: 2
-      contents: 
-        - text: "Contributions"
-          href: contributions.html

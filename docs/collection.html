@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>data_dabblers - Data Dabblers Home Page</title>
+<title>Dabbling in Data - Data Collection</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -132,10 +132,39 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./collection.html">Data Collection</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./collection.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Data Collection</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cleaning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Cleaning</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -145,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Dabblers Home Page</h1>
+<h1 class="title">Data Collection</h1>
 </div>
 
 
@@ -162,7 +191,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hello there, testing testing 123</p>
+<p>The flowchart describes a step-by-step process for scraping data from the subreddit r/wallstreetbets. Here’s the process broken down into sequential steps:</p>
+<ol type="1">
+<li><p><strong>Using Reddit API</strong>: The process begins by attempting to scrape data from the r/wallstreetbets subreddit using the Reddit API. The API is successfully accessed using a tool like Postman, but there’s a limitation encountered: it’s not possible to filter posts by date.</p></li>
+<li><p><strong>Accessing Pushshift API</strong>: Since the Reddit API has limitations, the next step is to try using the Pushshift API, which contains post data from all subreddits, including historical data from Reddit. However, there’s an issue as the terms of conditions for the Pushshift API have changed and it is no longer available for research purposes, preventing access to this data.</p></li>
+<li><p><strong>Scraping Hidden Reddit API Data by Date</strong>: Despite not being able to use the Pushshift API for this purpose, the process finds success by scraping hidden Reddit API data with the ability to filter by date, thus overcoming the limitation faced in the first step.</p></li>
+<li><p><strong>Attempted Scraping Using Selenium</strong>: There’s also an attempt made to scrape the subreddit using Selenium, a tool for automating web browsers. This attempt results in only being able to scrape the 1000 most recent posts from r/wallstreetbets, which suggests a limitation on the volume of data that can be scraped in a single go.</p></li>
+<li><p><strong>Using Another Person’s Pushshift API Access</strong>: There’s an attempt to use someone else’s access to the Pushshift API. Unfortunately, this does not work and access to the data through this method is unsuccessful.</p></li>
+<li><p><strong>Requesting CSV Version of Reddit API</strong>: Finally, there’s a request made for a CSV version of the Reddit API data. This step is marked as a success, indicating that obtaining a CSV file with the desired data from the Reddit API was achieved.</p></li>
+</ol>
+<p>Throughout these steps, there are various attempts and strategies employed to overcome the limitations of different APIs and methods for scraping data from Reddit. The process shows persistence in finding a solution to extract the required data, eventually leading to a successful outcome.</p>
 
 
 

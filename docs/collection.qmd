@@ -1,5 +1,5 @@
 ---
-title: "Exploratory Data Analysis"
+title: "Data Collection"
 format: html
 ---
 
