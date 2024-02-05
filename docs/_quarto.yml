@@ -11,11 +11,10 @@ format:
 website:
   title: "Data Dabblers"
   navbar:
-    background: primary
     search: true
     left:
-      - href: index.html
-        icon: ds105a-project-data-dabblers/images/menu.png
+      - text: "Overview"
+        href: index.html
       - sidebar:eda
       - sidebar:visualisations
       - text: "Conclusions"
@@ -26,8 +25,6 @@ website:
   sidebar:
     - id: eda
       title: "Exploratory Data Analysis"
-      style: "docked"
-      background: dark
       collapse-level: 2
       contents: 
         - text: "Data Collection"
@@ -37,7 +34,6 @@ website:
 
     - id: visualisations
       title: "Visualisations"
-      background: dark
       collapse-level: 2
       contents:
         - text: "Visualisations"
