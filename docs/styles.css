@@ -24,3 +24,9 @@ body {
 .toc-active ul, .toc-active ul:visited {
     color: #4630d5;
   }
+
+#bottom-left-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
