@@ -14,8 +14,7 @@ website:
     background: primary
     search: true
     left:
-      - text: [Menu icon](images/menu.png)
-        href: index.html
+      - html: '<a href="index.html"><img src="images/menu.png" alt="Clickable Image"></a>'
       - sidebar:eda
       - sidebar:visualisations
       - text: "Conclusions"
