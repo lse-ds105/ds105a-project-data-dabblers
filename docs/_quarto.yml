@@ -14,8 +14,8 @@ website:
     background: primary
     search: true
     left:
-      - icon: ds105a-project-data-dabblers/images/menu.png
-        href: index.html
+      - href: index.html
+        icon: ds105a-project-data-dabblers/images/menu.png
       - sidebar:eda
       - sidebar:visualisations
       - text: "Conclusions"
