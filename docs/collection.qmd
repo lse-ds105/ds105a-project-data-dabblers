@@ -22,8 +22,9 @@ The flowchart describes a step-by-step process for scraping data from the subred
 Throughout these steps, there are various attempts and strategies employed to overcome the limitations of different APIs and methods for scraping data from Reddit. The process shows persistence in finding a solution to extract the required data, eventually leading to a successful outcome.
 
 <div>
-    ![Reddit Collection](../image/reddit_scraping_process.png)
+    <img src="../image/reddit_scraping_process.png" alt="Reddit Collection">
 </div>
+
 
 
 ## GameStop Stock Prices
