@@ -1,8 +1,4 @@
 /* css styles */
-
-.navbar {
-    background-color: hotpink !important;
-  }
   
   body {
     background-color: black !important;
@@ -10,10 +6,19 @@
   }
   
   a, a:visited {
-    color: #39FF14;
+    color: #6a5acd;
   }
   
+  .navbar {
+    background-color: hotpink !important;
+  }
+
   .navbar a, .navbar a:visited {
     color: black;
   }
   
+.sidebar {
+    background-color: #39FF14 !important;
+    color: black;
+  }
+
