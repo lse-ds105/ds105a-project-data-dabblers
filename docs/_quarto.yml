@@ -14,7 +14,7 @@ website:
     background: primary
     search: true
     left:
-      - icon: images/menu.png
+      - icon: ds105a-project-data-dabblers/images/menu.png
         href: index.html
       - sidebar:eda
       - sidebar:visualisations
