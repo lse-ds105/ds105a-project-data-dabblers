@@ -38,7 +38,7 @@ website:
       title: "Conclusions"
       background: dark
       collapse-level: 2
-      contents: :
+      contents:
         - text: "Conclusions"
           href: conclusions.qmd
         

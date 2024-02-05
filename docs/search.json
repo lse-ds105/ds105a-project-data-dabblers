@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "contributions.html",
+    "href": "contributions.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Adnan Baig | BSc in Economics\nAnna Jin | BSc in Economics\nHailey Stevens | BA in History"
+  },
+  {
+    "objectID": "contributions.html#team-members",
+    "href": "contributions.html#team-members",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Adnan Baig | BSc in Economics\nAnna Jin | BSc in Economics\nHailey Stevens | BA in History"
+  },
+  {
+    "objectID": "eda.html",
+    "href": "eda.html",
+    "title": "Exploratory Data Analysis",
+    "section": "",
+    "text": "The flowchart describes a step-by-step process for scraping data from the subreddit r/wallstreetbets. Here’s the process broken down into sequential steps:\n\nUsing Reddit API: The process begins by attempting to scrape data from the r/wallstreetbets subreddit using the Reddit API. The API is successfully accessed using a tool like Postman, but there’s a limitation encountered: it’s not possible to filter posts by date.\nAccessing Pushshift API: Since the Reddit API has limitations, the next step is to try using the Pushshift API, which contains post data from all subreddits, including historical data from Reddit. However, there’s an issue as the terms of conditions for the Pushshift API have changed and it is no longer available for research purposes, preventing access to this data.\nScraping Hidden Reddit API Data by Date: Despite not being able to use the Pushshift API for this purpose, the process finds success by scraping hidden Reddit API data with the ability to filter by date, thus overcoming the limitation faced in the first step.\nAttempted Scraping Using Selenium: There’s also an attempt made to scrape the subreddit using Selenium, a tool for automating web browsers. This attempt results in only being able to scrape the 1000 most recent posts from r/wallstreetbets, which suggests a limitation on the volume of data that can be scraped in a single go.\nUsing Another Person’s Pushshift API Access: There’s an attempt to use someone else’s access to the Pushshift API. Unfortunately, this does not work and access to the data through this method is unsuccessful.\nRequesting CSV Version of Reddit API: Finally, there’s a request made for a CSV version of the Reddit API data. This step is marked as a success, indicating that obtaining a CSV file with the desired data from the Reddit API was achieved.\n\nThroughout these steps, there are various attempts and strategies employed to overcome the limitations of different APIs and methods for scraping data from Reddit. The process shows persistence in finding a solution to extract the required data, eventually leading to a successful outcome."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Dabbling in Data\nhello"
+  }
+]
