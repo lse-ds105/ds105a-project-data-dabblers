@@ -1,4 +1,8 @@
 ---
+title: "Data Dabblers"
+format: html
+
+
 website:
   title: "data_dabblers"
   navbar:
