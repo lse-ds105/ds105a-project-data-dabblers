@@ -20,7 +20,7 @@ The image you've uploaded describes a process for cleaning and preparing data fr
 This process is typical of data preprocessing in data science, where raw data is transformed into a more usable format before analysis.
 
 
-<img src="images/reddit_cleaning_process.png" alt="Reddit Cleaning">
+<img src="images/reddit_cleaning_process.png" alt="Reddit Cleaning" style="width: 80%; height: auto;">
 
 
 ## GameStop Stock Prices
@@ -45,7 +45,7 @@ The image you've provided is a flowchart describing a process for obtaining and 
 
 This flowchart outlines a common data preprocessing task in financial data analysis, where raw data from an API is collected, filtered by a specific time frame, converted to suitable data types, and then cleaned for further analysis.
 
-<img src="images/gme_cleaning_process.png" alt="GME Cleaning">
+<img src="images/gme_cleaning_process.png" alt="GME Cleaning" style="width: 80%; height: auto;">
 
 
 

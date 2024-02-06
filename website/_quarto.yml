@@ -21,7 +21,7 @@ website:
             url:  https://github.com/lse-ds105/ds105a-project-data-dabblers/issues/new
     search: true
     left:
-      - text: "Overview"
+      - text: "About"
         href: index.html
       - sidebar:eda
       - text: "Visualisations"

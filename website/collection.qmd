@@ -21,7 +21,7 @@ The flowchart describes a step-by-step process for scraping data from the subred
 
 Throughout these steps, there are various attempts and strategies employed to overcome the limitations of different APIs and methods for scraping data from Reddit. The process shows persistence in finding a solution to extract the required data, eventually leading to a successful outcome.
 
-<img src="images/reddit_scraping_process.png" alt="Reddit Scraping">
+<img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 80%; height: auto;">
 
 
 
@@ -35,7 +35,7 @@ The image you've provided appears to be a diagram representing a process for obt
 
 3. **SUCCESS**: This indicates that the data retrieval was successful. In the context of a program or script, this could mean that the data was successfully fetched and possibly saved to a database or a file for further analysis.
 
-<img src="images/gme_scraping_process.png" alt="GME Scraping">
+<img src="images/gme_scraping_process.png" alt="GME Scraping" style="width: 80%; height: auto;">
 
 
 
