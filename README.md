@@ -76,36 +76,36 @@ pip install -r requirements.txt
 
 Collection Process:
 
-![](images/reddit_scraping_process.png "Reddit Data Scraping Process")
+![](docs/images/reddit_scraping_process.png "Reddit Data Scraping Process")
 
 Cleaning Process:
 
-![](images/reddit_cleaning_process.png "Reddit Data Cleaning Process")
+![](docs/images/reddit_cleaning_process.png "Reddit Data Cleaning Process")
 
 Comparision of original data frame to cleaned data frame:
 
-<img src="images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300">
-<img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
+<img src="docs/images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300">
+<img src="docs/images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
 
 Header of cleaned Reddit data frame:
 
-<img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
+<img src="docs/images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
 
 
 ### *Collection and Cleaning of GameStock Stock Data*
-#### Relevant folder: [GME JSON Files](data/gme_data)
+#### Relevant file: [GME JSON File](data/gme_data/gme_daily_data.json)
 
 Collection Process:
 
-![](images/gme_scraping_process.png "GameStop Stock Data Scraping Process")
+![](docs/images/gme_scraping_process.png "GameStop Stock Data Scraping Process")
 
 Cleaning Process:
 
-![](images/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
+![](docs/images/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
 
 Header of cleaned and merged GME data frame:
 
-<img src="images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto">
+<img src="docs/images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto">
 
 
 ### *Exploratory Data Analysis*
@@ -131,9 +131,9 @@ Alexander Soldatkin (https://github.com/alex-soldatkin)
 
 |Contributors (%)|Data Collections (%)|Data Cleaning (%)|Visualisations (%)|Repository Organisation (%)|Documentation (%)|
 |-----------|-----------|-----------|-----------|-----------|-----------|
-|Adnan Baig|-----------|-----------|-----------|-----------|-----------|
-|Anna Jin|-----------|-----------|-----------|-----------|-----------|
-|Hailey Stevens|N/A|N/A|N/A|-------|80|
+|Adnan Baig|50|50|50|35|10|
+|Anna Jin|50|50|50|35|10|
+|Hailey Stevens|N/A|N/A|N/A|30|80|
 
 
 *If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.*

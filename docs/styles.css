@@ -31,3 +31,8 @@ body {
     left: 0;
     z-index: 1;
 }
+
+#bottom-left-image img {
+  width: 15%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
