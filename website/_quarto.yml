@@ -24,7 +24,8 @@ website:
       - text: "Overview"
         href: index.html
       - sidebar:eda
-      - sidebar:visualisations
+      - text: "Visualisations"
+        href: conclusions.html
       - text: "Conclusions"
         href: conclusions.html
       - text: "Contributions"
@@ -41,10 +42,3 @@ website:
           href: collection.html
         - text: "Data Cleaning"
           href: cleaning.html
-
-    - id: visualisations
-      title: "Visualisations"
-      collapse-level: 2
-      contents:
-        - text: "Visualisations"
-          href: visualisations.html
