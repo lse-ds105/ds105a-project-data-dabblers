@@ -13,9 +13,16 @@ body {
   color: black;
 }
 
-.sidebar{
+.sidebar {
   background-color: black !important;
+  width: 20px
 }
+
+.margin-sidebar {
+  background-color: black !important;
+  width: 20px
+}
+      
 
 .sidebar-item a, .sidebar-item a:visited {
   color: #26f86c;
