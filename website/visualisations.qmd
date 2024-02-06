@@ -4,4 +4,4 @@ format: html
 ---
 
 
-<img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: absolute; bottom: 0px; left: 0px; z-index: 2;">
+<img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; bottom: 0px; left: 0px; z-index: 2;">
