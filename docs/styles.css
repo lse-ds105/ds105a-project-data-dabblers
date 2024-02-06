@@ -24,3 +24,16 @@ body {
 .toc-active ul, .toc-active ul:visited {
     color: #4630d5;
   }
+
+.moving-image {
+    position: absolute;
+    top: 50px; /* Initial top position */
+    left: 50px; /* Initial left position */
+    width: 100px;
+    height: 100px;
+    transition: transform 2s linear;
+}
+
+.moving-image.move {
+    transform: translateX(200px) translateY(100px); /* Specify the final position */
+}
