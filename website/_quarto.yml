@@ -1,7 +1,7 @@
 project:
   title: "ds105a-project-data-dabblers"
   type: website
-  output-dir: docs
+  output-dir: ../docs
 
 format:
   html:
@@ -35,6 +35,8 @@ website:
       title: "Exploratory Data Analysis"
       collapse-level: 2
       contents: 
+        - text: "Data Overview"
+          href: data_overview.html
         - text: "Data Collection"
           href: collection.html
         - text: "Data Cleaning"

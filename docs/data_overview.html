@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Dabblers - Data Cleaning</title>
+<title>Data Dabblers - Data Overview</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cleaning.html">Data Cleaning</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_overview.html">Data Overview</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -170,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data_overview.html" class="sidebar-item-text sidebar-link">
+  <a href="./data_overview.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data Overview</span></a>
   </div>
 </li>
@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./cleaning.html" class="sidebar-item-text sidebar-link active">
+  <a href="./cleaning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Cleaning</span></a>
   </div>
 </li>
@@ -192,21 +192,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#rwallstreetbets-posts" id="toc-rwallstreetbets-posts" class="nav-link active" data-scroll-target="#rwallstreetbets-posts">r/wallstreetbets Posts</a></li>
-  <li><a href="#gamestop-stock-prices" id="toc-gamestop-stock-prices" class="nav-link" data-scroll-target="#gamestop-stock-prices">GameStop Stock Prices</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Cleaning</h1>
+<h1 class="title">Data Overview</h1>
 </div>
 
 
@@ -223,42 +216,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="rwallstreetbets-posts" class="level2">
-<h2 class="anchored" data-anchor-id="rwallstreetbets-posts">r/wallstreetbets Posts</h2>
-<p>The image you’ve uploaded describes a process for cleaning and preparing data from the subreddit r/wallstreetbets for analysis. Here’s a step-by-step explanation:</p>
-<ol type="1">
-<li><p><strong>r/wallstreetbets Data</strong>: This is the raw data from the r/wallstreetbets subreddit. It likely contains various fields of metadata for each post, such as scores, number of comments, and timestamps.</p></li>
-<li><p><strong>Formatted ‘score’ and ‘num_comments’ columns to ‘int’</strong>: The first step in processing the data is to format the ‘score’ and ‘num_comments’ fields as integers. This is necessary because these fields are often numerical and need to be in a consistent format (integer type) for quantitative analysis.</p></li>
-<li><p><strong>Formatted ‘date’ column to ‘datetime64’, consistent with GME stock price data</strong>: Next, the ‘date’ field is formatted to ‘datetime64’, a specific date-time format in many programming languages that allows for precise time series analysis. This step is crucial for aligning the Reddit data with GameStop (GME) stock price data, which will also be in a date-time format.</p></li>
-<li><p><strong>Used groupby method to group posts from same date</strong>: The third step is to group the posts by date. This is done using a ‘groupby’ method, which is a common operation in data manipulation libraries like pandas in Python. Grouping by date allows you to aggregate data, such as calculating the total number of posts, average score, or total number of comments for each date.</p></li>
-<li><p><strong>Outcome: cleaned dataframe of Reddit data</strong>: The final output is a cleaned dataframe (a table-like data structure) containing the processed Reddit data. A cleaned dataframe typically means that the data is free of inconsistencies, is formatted correctly, and is ready for analysis or to be merged with other datasets, like the GME stock price data.</p></li>
-</ol>
-<p>This process is typical of data preprocessing in data science, where raw data is transformed into a more usable format before analysis.</p>
-<p><img src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/images/reddit_cleaning_process.png" alt="Reddit Cleaning"></p>
-</section>
-<section id="gamestop-stock-prices" class="level2">
-<h2 class="anchored" data-anchor-id="gamestop-stock-prices">GameStop Stock Prices</h2>
-<p>The image you’ve provided is a flowchart describing a process for obtaining and cleaning stock data for GameStop (GME) from the Alpha Vantage API. Here is the step-by-step explanation:</p>
-<ol type="1">
-<li><p><strong>Alpha Vantage API</strong>: This is the source of the stock data. Alpha Vantage provides an API from which you can request financial data, including stock prices.</p></li>
-<li><p><strong>Scraped all daily data from December 2020 to present day</strong>: The first step in the process is to send a request to the Alpha Vantage API to obtain all available daily stock data for GME, starting from December 2020 up to the current day.</p></li>
-<li><p><strong>Filter by date, from December 2020 to end of March 2021</strong>: After obtaining the data, the next step is to filter it to include only the data within a specific time frame. In this case, the data is filtered to retain only the information from December 2020 to the end of March 2021.</p></li>
-<li><p><strong>Converted data from ‘objects’ to the following</strong>:</p>
-<ul>
-<li><strong>Date = ‘datetime64’</strong>: The date data is converted to ‘datetime64’ format, which is a standard format for handling dates and times in data analysis, allowing for easy sorting, filtering, and manipulation based on time.</li>
-<li><strong>Open = ‘float64’</strong></li>
-<li><strong>High = ‘float64’</strong></li>
-<li><strong>Low = ‘float64’</strong></li>
-<li><strong>Close = ‘float64’</strong>: The stock prices for the open, high, low, and close of each day are converted to ‘float64’, which is a data type suitable for representing floating-point numbers and allows for precise numerical analysis.</li>
-<li><strong>Volume = ‘int32’</strong>: The trading volume data is converted to ‘int32’, which is a data type used for representing integer numbers and is sufficient for volume data, which represents the number of shares traded and does not require a decimal point.</li>
-</ul></li>
-<li><p><strong>Outcome: cleaned dataframe of GME stock data</strong>: The final outcome is a cleaned dataframe of the GME stock data. A cleaned dataframe is one where the data has been processed to ensure that it is in a uniform and appropriate format for analysis. It implies that the data is now structured and ready for any subsequent analysis or visualization tasks.</p></li>
-</ol>
-<p>This flowchart outlines a common data preprocessing task in financial data analysis, where raw data from an API is collected, filtered by a specific time frame, converted to suitable data types, and then cleaned for further analysis.</p>
-<p><img src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/images/gme_cleaning_process.png" alt="GME Cleaning"></p>
+<p>USE iframe</p>
+&lt;!DOCTYPE html&gt;
 
 
-</section>
+<title>
+Interactive Plot
+</title>
+
+
+<h1>
+Interactive Plot
+</h1>
+<iframe src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/interactive_plot.html" width="800" height="600" frameborder="0">
+</iframe>
+
+
+&lt;!DOCTYPE html&gt;
+
+
+<title>
+Interactive Timeline
+</title>
+
+
+<h1>
+Interactive Timeline
+</h1>
+<iframe src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/interactive_timeline.html" width="800" height="600" frameborder="0">
+</iframe>
+
+
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
