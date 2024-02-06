@@ -55,7 +55,7 @@
     "href": "data_overview.html",
     "title": "Data Overview",
     "section": "",
-    "text": "&lt;!DOCTYPE html&gt;\n\n\n\nInteractive Plot\n\n\n\n\nInteractive Plot\n\n\n\n\n\n&lt;!DOCTYPE html&gt;\n\n\n\nInteractive Timeline\n\n\n\n\nInteractive Timeline",
+    "text": "USE iframe\n&lt;!DOCTYPE html&gt;\n\n\n\nInteractive Plot\n\n\n\n\nInteractive Plot\n\n\n\n\n\n&lt;!DOCTYPE html&gt;\n\n\n\nInteractive Timeline\n\n\n\n\nInteractive Timeline",
     "crumbs": [
       "Data Overview"
     ]
