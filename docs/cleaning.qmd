@@ -20,6 +20,8 @@ The image you've uploaded describes a process for cleaning and preparing data fr
 This process is typical of data preprocessing in data science, where raw data is transformed into a more usable format before analysis.
 
 
+<img src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/images/reddit_cleaning_process.png" alt="Reddit Cleaning">
+
 
 ## GameStop Stock Prices
 
@@ -42,3 +44,5 @@ The image you've provided is a flowchart describing a process for obtaining and 
 5. **Outcome: cleaned dataframe of GME stock data**: The final outcome is a cleaned dataframe of the GME stock data. A cleaned dataframe is one where the data has been processed to ensure that it is in a uniform and appropriate format for analysis. It implies that the data is now structured and ready for any subsequent analysis or visualization tasks.
 
 This flowchart outlines a common data preprocessing task in financial data analysis, where raw data from an API is collected, filtered by a specific time frame, converted to suitable data types, and then cleaned for further analysis.
+
+<img src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/images/gme_cleaning_process.png" alt="GME Cleaning">
