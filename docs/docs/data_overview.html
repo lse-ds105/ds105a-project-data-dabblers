@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Dabblers - Dabbling in Data</title>
+<title>Data Dabblers - Data Overview</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -97,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Exploratory Data Analysis</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-exploratory-data-analysis">    
+        <li>
+    <a class="dropdown-item" href="./data_overview.html">
+ <span class="dropdown-text">Data Overview</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="./collection.html">
  <span class="dropdown-text">Data Collection</span></a>
@@ -147,28 +151,55 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_overview.html">Data Overview</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data_overview.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Data Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./collection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Collection</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cleaning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Cleaning</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
-  <li><a href="#our-motivation" id="toc-our-motivation" class="nav-link" data-scroll-target="#our-motivation">Our Motivation</a></li>
-  <li><a href="#contextualising-our-project" id="toc-contextualising-our-project" class="nav-link" data-scroll-target="#contextualising-our-project">Contextualising Our Project</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dabbling in Data</h1>
+<h1 class="title">Data Overview</h1>
 </div>
 
 
@@ -185,24 +216,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>2020-21 GameStop Short Squeeze: an analysis of the profound impact of social meedia communities on the price of GameStop stock.</p>
-<section id="project-overview" class="level2">
-<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
-<p>Welcome to Dabbling in Data, a project which delves into the GameStop (GME) short squeeze phenomenon. Our primary objective is to shed light on the causation and degree of influence the Reddit community, r/wallstreetbets, had on the stock price of GameStop. We conducted an analysis of GME stock data in relation to r/wallstreetbets posts, over the period December 2020 to March 2021.</p>
-</section>
-<section id="our-motivation" class="level2">
-<h2 class="anchored" data-anchor-id="our-motivation">Our Motivation</h2>
-<p>Our project stems from a fascination with this event and its disruption to traditional financial norms, its empowerment of online communities, and its ensuing impact on regulation. Through our analysis, we aim to reveal the role of online communities on stock market behaviour.</p>
-</section>
-<section id="contextualising-our-project" class="level2">
-<h2 class="anchored" data-anchor-id="contextualising-our-project">Contextualising Our Project</h2>
-<p>The GameStop short squeeze in early 2021 saw a remarkable surge in the stock price of GameStop (GME). This surge was orchestrated by retail investors, particularly through the Reddit community r/wallstreetbets. As these investors bought GME shares en masse, it forced hedge funds and institutional investors, who had bet against the stock, to cover their positions, causing GME’s price to skyrocket.</p>
-<div id="bottom-left-image">
-<pre><code>&lt;img src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/images/tree.png" alt="Tree"/&gt;</code></pre>
-</div>
+&lt;!DOCTYPE html&gt;
 
 
-</section>
+<title>
+Interactive Plot
+</title>
+
+
+<h1>
+Interactive Plot
+</h1>
+<iframe src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/interactive_plot.html" width="800" height="600" frameborder="0">
+</iframe>
+
+
+&lt;!DOCTYPE html&gt;
+
+
+<title>
+Interactive Timeline
+</title>
+
+
+<h1>
+Interactive Timeline
+</h1>
+<iframe src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/interactive_timeline.html" width="800" height="600" frameborder="0">
+</iframe>
+
+
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
