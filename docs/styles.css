@@ -25,12 +25,3 @@ body {
 .toc-active ul, .toc-active ul:visited {
   color: #4630d5;
 }
-
-.sidebar-tree {
-  width: 14%;
-  height: auto;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  z-index: 1;
-}
