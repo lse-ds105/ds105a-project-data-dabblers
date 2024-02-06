@@ -25,7 +25,7 @@ website:
         href: index.html
       - sidebar:eda
       - text: "Visualisations"
-        href: conclusions.html
+        href: visualisations.html
       - text: "Conclusions"
         href: conclusions.html
       - text: "Contributions"
