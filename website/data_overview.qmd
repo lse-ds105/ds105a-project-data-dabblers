@@ -33,4 +33,4 @@ USE iframe
 
 
 
-<img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; bottom: 0px; left: 0px; z-index: 2;">
+<img src="images/tree.png" alt="Sidebar Tree" class="sidebar-tree">
