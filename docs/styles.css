@@ -24,3 +24,11 @@ body {
 .toc-active ul, .toc-active ul:visited {
     color: #4630d5;
   }
+
+
+#tree-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
