@@ -28,3 +28,9 @@ USE iframe
     <iframe src="../visualisations/interactive_timeline.html" width="800" height="600" frameborder="0"></iframe>
 </body>
 </html>
+
+
+
+
+
+<img src="images/tree.png" alt="Tree" style="width: 200px; height: auto; position: absolute; bottom: 0px; left: 0px; z-index: 2;">

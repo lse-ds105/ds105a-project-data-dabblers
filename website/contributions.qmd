@@ -11,3 +11,6 @@ format: html
 ## Guidance
 - [Alexander Soldatkin](https://github.com/alex-soldatkin)
 - [Jon Cardoso-Silva](https://github.com/jonjoncardoso)
+
+
+<img src="images/tree.png" alt="Tree" style="width: 200px; height: auto; position: absolute; bottom: 0px; left: 0px; z-index: 2;">

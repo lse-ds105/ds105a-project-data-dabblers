@@ -36,3 +36,9 @@ The image you've provided appears to be a diagram representing a process for obt
 3. **SUCCESS**: This indicates that the data retrieval was successful. In the context of a program or script, this could mean that the data was successfully fetched and possibly saved to a database or a file for further analysis.
 
 <img src="images/gme_scraping_process.png" alt="GME Scraping">
+
+
+
+
+
+<img src="images/tree.png" alt="Tree" style="width: 200px; height: auto; position: absolute; bottom: 0px; left: 0px; z-index: 2;">
