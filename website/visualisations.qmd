@@ -3,5 +3,6 @@ title: "Visualisations"
 format: html
 ---
 
+<img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: fixed; bottom: 20px; left: 0px; z-index: 2;">
 
-<img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: absolute; bottom: 0px; left: 0px; z-index: 2;">
+<img src="images/brick.png" alt="Brick" style="width: 100%; height: auto; position: fixed; bottom: 0px; left: 0px; z-index: 3;">

@@ -15,6 +15,7 @@ body {
 
 .sidebar{
   background-color: black !important;
+  width: 10%;
   position: relative;
 }
 
