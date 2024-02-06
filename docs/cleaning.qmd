@@ -46,3 +46,5 @@ The image you've provided is a flowchart describing a process for obtaining and 
 This flowchart outlines a common data preprocessing task in financial data analysis, where raw data from an API is collected, filtered by a specific time frame, converted to suitable data types, and then cleaned for further analysis.
 
 <img src="https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/images/gme_cleaning_process.png" alt="GME Cleaning">
+
+
