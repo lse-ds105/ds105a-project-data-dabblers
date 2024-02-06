@@ -1,0 +1,48 @@
+project:
+  title: "ds105a-project-data-dabblers"
+  type: website
+  output-dir: docs
+
+format:
+  html:
+    css: styles.css
+    toc: true
+
+website:
+  title: "Data Dabblers"
+  navbar: 
+    #logo: ../images/data_dabblers.png
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/lse-ds105/ds105a-project-data-dabblers
+          - text: Report a Bug
+            url:  https://github.com/lse-ds105/ds105a-project-data-dabblers/issues/new
+    search: true
+    left:
+      - text: "Overview"
+        href: index.html
+      - sidebar:eda
+      - sidebar:visualisations
+      - text: "Conclusions"
+        href: conclusions.html
+      - text: "Contributions"
+        href: contributions.html
+
+  sidebar:
+    - id: eda
+      title: "Exploratory Data Analysis"
+      collapse-level: 2
+      contents: 
+        - text: "Data Collection"
+          href: collection.html
+        - text: "Data Cleaning"
+          href: cleaning.html
+
+    - id: visualisations
+      title: "Visualisations"
+      collapse-level: 2
+      contents:
+        - text: "Visualisations"
+          href: visualisations.html

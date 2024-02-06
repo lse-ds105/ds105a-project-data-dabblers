@@ -1,66 +1,151 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WKKzpWVj)
+Project description:
 
-Webpage	Motivation	5	- The webpage explains what made the group curious about this data.
-
-Our group became fascinated by the Gamestop short squeeze in January 2021 at the time of its occurrence. 
-
-The subreddit r/wallstreetbet collectively short-squeezed Gamestop (GME) stock  fight hedge funds. 
+What your application does?
 
 
+What made you curious about this kind of data in the first place?
 
 
-Webpage	Data	5	- The webpage succinctly lists the data sources and the data collection challenges
+How did you gather the data?  Why you used the technologies you used?
 
 
+What is in the data?  What does it look like in general?
 
 
+What did you find out about the data?  (Exploratory Data Analysis)
 
-Webpage	Exploratory Data Analysis (EDA)	10	- The webpage paints a vivid picture of the data (things like: the number of data points, what are the different data types and the most relevant columns, summaries and distributions, etc.)
 
-
+Some of the challenges you faced and features you hope to implement in the future.
 
 
 
-Webpage	Visualisation	10	- The plots look really nice
-- All labels are clear and visible
-- All variables are clearly identified.
-- The plots and tables paint a vivid picture of what the data looks like.
-- The group used ggplot (R) or plotnine (python) to generate the plots
+# Analysis of the 2020-2021 GameStop Short Squeeze
+
+## *Table of Contents*
+
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Data](#data)
+5. [Visualisations](#visualisations)
+6. [Credits](#credits)
+7. [License](#license)
+8. [Tests](#tests)
+
+
+## PROJECT OVERVIEW
+
+Welcome to Project Data Dabblers, which delves into the GameStop (GME) short squeeze phenomenon. Our primary objective is to shed light on the causation and degree of influence the Reddit community, r/wallstreetbets, had on the stock price of GameStop. We conducted an analysis of GME stock data in relation to r/wallstreetbets posts, over the period December 2020 to March 2021. 
+
+
+### *Motivation*
+
+Our project stems from a fascination with this event and its disruption to traditional financial norms, its empowerment of online communities, and its ensuing impact on regulation. Through our analysis, we aim to reveal the role of online communities on stock market behaviour.
+
+
+### *Context*
+
+The GameStop short squeeze in early 2021 saw a remarkable surge in the stock price of GameStop (GME). This surge was orchestrated by retail investors, particularly through the Reddit community r/wallstreetbets. As these investors bought GME shares en masse, it forced hedge funds and institutional investors, who had bet against the stock, to cover their positions, causing GME's price to skyrocket.
+
+
+## INSTALLATION
+
+### *Installation for MacOS*
+
+Run code in the command line:
+
+pip install -r requirements.txt
+
+### *Installation for Windows*
+
+
+## USAGE
+
+*Provide instructions and examples for use. Include screenshots as needed.*
+
+
+## DATA
+
+### *Data Sources*
+
+1. Alpha Vantage API
+2. CSV file of Reddit API data - sourced from LSE alumni
+
+### *Collection and Cleaning of Reddit Data*
+#### Relevant folder: [Reddit CSV Files](data/reddit_data)
+
+Collection Process:
+
+![](images/reddit_scraping_process.png "Reddit Data Scraping Process")
+
+Cleaning Process:
+
+![](images/reddit_cleaning_process.png "Reddit Data Cleaning Process")
+
+Comparision of original data frame to cleaned data frame:
+
+<img src="images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300">
+<img src="images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
+
+Header of cleaned Reddit data frame:
+
+<img src="images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
+
+
+### *Collection and Cleaning of GameStock Stock Data*
+#### Relevant folder: [GME JSON Files](data/gme_data)
+
+Collection Process:
+
+![](images/gme_scraping_process.png "GameStop Stock Data Scraping Process")
+
+Cleaning Process:
+
+![](images/gme_cleaning_process.png "GameStop Stock Data Cleaning Process")
+
+Header of cleaned and merged GME data frame:
+
+<img src="images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto">
+
+
+### *Exploratory Data Analysis*
+Collected 5484 rows of GME stock price data from the Alpha Vantage API.
+Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
+
+
+## VISUALISATIONS
 
 
 
+## CREDITS
+
+Adnan Baig (https://github.com/Wickederknave5)
+
+Anna Jin (https://github.com/annajin1)
+
+Hailey Stevens (https://github.com/haileystvns)
+
+Alexander Soldatkin (https://github.com/alex-soldatkin)
+
+### Work Contribution
+
+|Contributors (%)|Data Collections (%)|Data Cleaning (%)|Visualisations (%)|Repository Organisation (%)|Documentation (%)|
+|-----------|-----------|-----------|-----------|-----------|-----------|
+|Adnan Baig|-----------|-----------|-----------|-----------|-----------|
+|Anna Jin|-----------|-----------|-----------|-----------|-----------|
+|Hailey Stevens|N/A|N/A|N/A|-------|80|
 
 
-Webpage	Storytelling	15	- The text is engaging and clear.
-- There is no fluff
-- The group described relevant technical steps without too many details.
-- There was a nice conclusion.
+*If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.*
+
+*If you followed tutorials, include links to those here as well.*
 
 
+## LICENSE
+
+MIT License, see [LICENSE](LICENSE) for further information.
 
 
-Source code	Organisation	10	- The source code is available in a group's GitHub repository.
-The code is replicable.
-- There is a good structure of files and directories
+## TESTS
 
-
-
-
-Source code	Collaboration	5	- There is a list of everyone's contributions to the project somewhere in the project's webpage or README file.
-- All members contributed with at least one commit to the group's GitHub repository.
-
-Note: we do not expect all group members to do the same thing; each person could have a different contribution. For example, one person could focus more on data collection while another takes care of the visualisations, and the other member could focus more on documentation.
-
-
-
-
-
-
-Source code	Data cleaning	20	- We see a good use of pandas (python) or tidyverse (R) to clean up data.
-- Data types of the variables are consistent and make sense.
-- Missing values were identified and dealt with.
-
-
-
-
-Source code	Data wrangling	20	- We see evidence of good use of pandas and/or tidyverse to filter, merge, reshape and pivot your data as needed for the analysis/plots.
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
