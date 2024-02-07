@@ -191,6 +191,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#rwallstreetbets-posts" id="toc-rwallstreetbets-posts" class="nav-link active" data-scroll-target="#rwallstreetbets-posts">r/wallstreetbets Posts</a></li>
   <li><a href="#gamestop-stock-prices" id="toc-gamestop-stock-prices" class="nav-link" data-scroll-target="#gamestop-stock-prices">GameStop Stock Prices</a></li>
+  <li><a href="#merging-data-frames" id="toc-merging-data-frames" class="nav-link" data-scroll-target="#merging-data-frames">Merging Data Frames</a></li>
   </ul>
 </nav>
     </div>
@@ -216,23 +217,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><br> <br></p>
+<p><br></p>
 <section id="rwallstreetbets-posts" class="level2">
 <h2 class="anchored" data-anchor-id="rwallstreetbets-posts">r/wallstreetbets Posts</h2>
 <section id="cleaning-process" class="level4">
 <h4 class="anchored" data-anchor-id="cleaning-process">Cleaning Process</h4>
 <p><img src="images/reddit_cleaning_process.png" alt="Reddit Cleaning" style="width: 100%; height: auto;"></p>
-<p><br> <br></p>
+<p><br></p>
 </section>
 <section id="challenges-faced" class="level4">
 <h4 class="anchored" data-anchor-id="challenges-faced">Challenges Faced</h4>
 <ol type="1">
 <li><p>Formatting: Converting ‘score’ and ‘num_comments’ fields from their original format to integers for quantitative analysis presents a fundamental data type consistency challenge.</p></li>
 <li><p>Alignment: Formatting the ‘date’ column to ‘datetime64’ to ensure compatibility and precise alignment with GameStop (GME) stock price data for time series analysis.</p></li>
-<li><p>Aggregation: Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarization of data points, like total posts, average scores, or comments per day.</p></li>
-<li><p>Creating Dataframe: The overall process of transforming raw subreddit data into a cleaned and structured dataframe ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardizing data formats.</p></li>
+<li><p>Aggregation: Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarisation of data points, like total posts, average scores, or comments per day.</p></li>
+<li><p>Create Data Frame: The overall process of transforming raw subreddit data into a cleaned and structured data frame ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardising data formats.</p></li>
 </ol>
-<p><br> <br></p>
+<p><br></p>
 </section>
 </section>
 <section id="gamestop-stock-prices" class="level2">
@@ -240,16 +241,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="cleaning-process-1" class="level4">
 <h4 class="anchored" data-anchor-id="cleaning-process-1">Cleaning Process</h4>
 <p><img src="images/gme_cleaning_process.png" alt="GME Cleaning" style="width: 100%; height: auto;"></p>
-<p><br> <br></p>
+<p><br></p>
 </section>
 <section id="challenges-faced-1" class="level4">
 <h4 class="anchored" data-anchor-id="challenges-faced-1">Challenges Faced</h4>
-<p>Creating Dataframe: The overarching challenge of transforming the raw API data into a cleaned dataframe involves multiple sub-tasks.</p>
+<p>The overarching challenge of transforming the raw API data into a cleaned data frame involved multiple sub-tasks.</p>
 <ul>
 <li>Ensuring data consistency and accuracy after type conversion.</li>
 <li>Handling any missing or anomalous data points that could skew analysis.</li>
-<li>Structuring the data in a way that aligns with analytical goals, ensuring it’s ready for analysis or visualization.</li>
+<li>Structuring the data in a way that aligns with analytical goals, ensuring it’s ready for analysis or visualisation.</li>
 </ul>
+<p><br></p>
+</section>
+</section>
+<section id="merging-data-frames" class="level2">
+<h2 class="anchored" data-anchor-id="merging-data-frames">Merging Data Frames</h2>
+<p>Once the data was cleaned, the GME stock price data frame was merged with the r/wallstreetbets post data frame.</p>
+<p><img src="images/merged_dataframes.png" alt="Merged Data Frames" style="width: 100%; height: auto;"></p>
+<p>Rows containing ‘Nan’ indicate that the stock market was closed - these rows were subsequently dropped.</p>
 <p><img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: fixed; bottom: 35px; left: 0px; z-index: 2;"></p>
 <p><img src="images/brick.png" alt="Brick" style="width: 100%; height: auto; position: fixed; bottom: 0px; left: 0px; z-index: 3;"></p>
 <p><img src="images/chest.png" alt="Chest" style="width: 8%; height: auto; position: fixed; bottom: 35px; right: 0px; z-index: 2;"></p>
@@ -257,7 +266,6 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/man.png" alt="Man" style="width: 8%; height: auto; position: fixed; bottom: 35px; right: 150px; z-index: 2;"></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

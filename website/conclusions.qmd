@@ -3,13 +3,11 @@ title: "Conclusions"
 format: html
 ---
 <br>
-<br>
 
 ## Candlestick Chart and Interactive Plot
 
 
 
-<br>
 <br>
 
 ## Mobilisation Insights
@@ -26,12 +24,10 @@ Our sentiment analysis painted a narrative of rising and falling emotional tides
 Ultimately, with the current insights, we can surmise interesting patterns and correlations across the data. Yet, we acknowledge that these are not definitive conclusions.
 
 <br>
-<br>
 
 ## Further Analysis
 While the word cloud, LDA, and sentiment analysis have yielded valuable insights into the GME saga, providing a glimpse into the collective mindset and topics of discussion, there's room for deeper exploration. If, for example, we had the ability to track individual user behaviour over time, access more granular transaction data, and monitor comment threads in real-time, we could pursue a more comprehensive analysis.
 
-<br>
 <br>
 
 By implementing these, and approaching the data from different angles such as through time-series analysis, or machine learning models we could potentially:
@@ -51,7 +47,6 @@ And thus:
 
 > Provide actionable intelligence for traders and market analysts, enhancing decision-making processes.
 
-<br>
 <br>
 
 With access to longitudinal data, user-level interactions, and the capability to parse the subtleties of sentiment in real-time, we could potentially unravel the causative threads of market movements.

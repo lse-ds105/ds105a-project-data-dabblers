@@ -7,7 +7,6 @@ inputs:
   - ../visualisations/LDA_vis.ipynb
 ---
 <br>
-<br>
 
 ## Introduction
 The initial analysis corroborated what we knew about the GME event, with visualisations clearly delineating the saga and linking stock fluctuations to real-time events effectively.
@@ -16,7 +15,6 @@ Our next goal was to dive deeper into the phenomenon of how a dispersed group mo
 
 This analysis, new to us, sought to identify trends and themes that explained the 'why' and 'how' of their collective action, without a predetermined path for investigation.
 
-<br>
 <br>
 
 ## Word Cloud Analysis
@@ -45,7 +43,6 @@ These insights are analogous to those speculated throughout our interactive time
 While word clouds provide an intuitive and visually appealing way to explore textual data, their reliance on the frequency of individual words can lead to oversimplification, especially with complex topics like the GME saga. This method overlooks the context in which words are used together, missing crucial nuances and the relationships between terms. Therefore, we felt it necessary to augment these word clouds with more advanced text analysis tools to grasp the subtleties and deeper insights of such discussions.
 
 <br>
-<br>
 
 ## LDA Analysis
 
@@ -58,7 +55,6 @@ However, the "topics" unearthed through LDA, being distributions of words, may n
 Regardless, the LDA visualisation offered intriguing insights, revealing underlying patterns and themes that were not immediately apparent.
 
 <br>
-<br>
 
 ```{=nb}
 ../visualisations/LDA_vis.ipynb
@@ -67,11 +63,9 @@ Regardless, the LDA visualisation offered intriguing insights, revealing underly
 <iframe src="/visualisations/LDA_vis.html" width="100%" height="600px"></iframe>
 
 <br>
-<br>
 
 Terms like "moon," "GME," and "AMC" signal optimism towards rising stock prices, a perspective not captured in the word clouds. Similarly, "squeeze" and "hold" hint at trading strategy discussions, likely around short squeezes or maintaining positions through volatility.
 
-<br>
 <br>
 
 Adjusting the LDA model's parameters, including the number of topics and iterations, enhanced our coherence score. In a refined analysis with five topics, the model's output was as follows:
@@ -83,7 +77,6 @@ Adjusting the LDA model's parameters, including the number of topics and iterati
 > Topic 5: Related to trading timing, with advice on "buying dips" or "holding shares," indicated by terms like "sell," "tomorrow," and "don't stop".
 
 <br>
-<br>
 
 Using adjusted parameters, such as for three topics, the model’s output was as follows:
 
@@ -94,7 +87,6 @@ Using adjusted parameters, such as for three topics, the model’s output was as
 > Topic 3: Showcases individual financial narratives and community advice, marked by a blend of investment strategy talk and forum slang, such as "portfolio," "money", and "savings".
 
 <br>
-<br>
 
 #### Insights
 
@@ -102,7 +94,6 @@ LDA's insights have been pivotal in unravelling the GME saga by showing how indi
 
 The LDA model pinpointed key phrases like "moon," "squeeze," and "hold" as unifiers within the GME community, illustrating how these terms helped coordinate individual efforts into collective action. This analysis provided concrete insights into the group's strategy, demonstrating the dynamics of connective action where digital platforms were used to align individual actions against market norms.
 
-<br>
 <br>
 
 ## Sentiment Analysis
@@ -115,11 +106,9 @@ analysis provides an overview of the collective attitude toward a particular sto
 It is crucial to note that the insights drawn do not imply causation.
 
 <br>
-<br>
 
 <img src="images/sentiment_analysis.png" alt="Sentiment Analysis" style="width: 100%; height: auto;">
 
-<br>
 <br>
 
 The sentiment analysis plot for GME stock illustrates several points of interest:
