@@ -14,17 +14,17 @@ format: html
 
 ### Challenges Faced
 
-1. *Reddit API Limitations:* The inability to filter posts by date with the Reddit API hampers historical data collection.
+1. Reddit API Limitations: The inability to filter posts by date with the Reddit API hampers historical data collection.
 
-2. *Pushshift API Access Restrictions:* Changes in the Pushshift API's terms of use restrict its availability for research, limiting access to historical subreddit data.
+2. Pushshift API Access Restrictions: Changes in the Pushshift API's terms of use restrict its availability for research, limiting access to historical subreddit data.
 
-3. *Scraping Date-Specific Data:* The need to find alternative methods to bypass the Reddit API's date filtering limitations complicates data collection.
+3. Scraping Date-Specific Data: The need to find alternative methods to bypass the Reddit API's date filtering limitations complicates data collection.
 
-4. *Web Scraping Tool Limitations:* Using Selenium for scraping reveals a cap on data volume, with a maximum of 1000 recent posts being retrievable at a time.
+4. Web Scraping Tool Limitations: Using Selenium for scraping reveals a cap on data volume, with a maximum of 1000 recent posts being retrievable at a time.
 
-5. *API Access Challenges:* Failed attempts to use another's Pushshift API access highlight the difficulties in obtaining necessary permissions for data access.
+5. API Access Challenges: Failed attempts to use another's Pushshift API access highlight the difficulties in obtaining necessary permissions for data access.
 
-6. *Data Format Navigation:* Requesting a CSV version of Reddit API data points to the challenges of managing and utilizing the provided data formats efficiently.
+6. Data Format Navigation: Requesting a CSV version of Reddit API data points to the challenges of managing and utilizing the provided data formats efficiently.
 
 
 
@@ -39,9 +39,9 @@ format: html
 
 ### Challenges Faced
 
-1. *API Key Registration:* Obtaining an API key requires registration, which may involve sharing personal information and adhering to specific use cases.
+1. API Key Registration: Obtaining an API key requires registration, which may involve sharing personal information and adhering to specific use cases.
 
-2. *Rate Limits and Quotas:* Alpha Vantage imposes rate limits that can slow the data collection process, a significant consideration for large datasets.
+2. Rate Limits and Quotas: Alpha Vantage imposes rate limits that can slow the data collection process, a significant consideration for large datasets.
 
 
 

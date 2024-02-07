@@ -14,13 +14,13 @@ format: html
 
 ### Challenges Faced
 
-1. *Data Formatting:* Converting 'score' and 'num_comments' fields from their original format to integers for quantitative analysis presents a fundamental data type consistency challenge.
+1. Formatting: Converting 'score' and 'num_comments' fields from their original format to integers for quantitative analysis presents a fundamental data type consistency challenge.
 
-2. *Date Alignment:* Formatting the 'date' column to 'datetime64' to ensure compatibility and precise alignment with GameStop (GME) stock price data for time series analysis.
+2. Alignment: Formatting the 'date' column to 'datetime64' to ensure compatibility and precise alignment with GameStop (GME) stock price data for time series analysis.
 
-3. *Data Aggregation:* Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarization of data points, like total posts, average scores, or comments per day.
+3. Aggregation: Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarization of data points, like total posts, average scores, or comments per day.
 
-4. *Creating Dataframe:* The overall process of transforming raw subreddit data into a cleaned and structured dataframe ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardizing data formats.
+4. Creating Dataframe: The overall process of transforming raw subreddit data into a cleaned and structured dataframe ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardizing data formats.
 
 
 
@@ -36,7 +36,7 @@ format: html
 
 ### Challenges Faced
 
-*Creating Dataframe:* The overarching challenge of transforming the raw API data into a cleaned dataframe involves multiple sub-tasks.
+Creating Dataframe: The overarching challenge of transforming the raw API data into a cleaned dataframe involves multiple sub-tasks.
 
 - Ensuring data consistency and accuracy after type conversion.
 - Handling any missing or anomalous data points that could skew analysis.
