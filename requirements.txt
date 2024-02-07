@@ -12,3 +12,8 @@ plotly==5.18.0
 mplfinance
 matplotlib
 bokeh
+plotly
+nltk 
+gensim 
+pyLDAvis 
+tqdm
