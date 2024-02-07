@@ -49,13 +49,12 @@ Run in the command line:
 
 ## USAGE
 
-*Provide instructions and examples for use. Include screenshots as needed.*
-To reproduce the code and visualisations in the website:
-    Run 'stock_price_scraping.ipynb' in the scraping folder
-    Run 'timeline.ipynb' in the visualisations folder
-    Run 'interactive_plot.ipynb' in the visualisations folder
-    Run 'lda_visualisation.ipynb' in the visualisations folder
-    Run 'wordcloud_visualisation.ipynb' in the visualisations folder
+To reproduce the code and visualisations in the website run...
+1. 'stock_price_scraping.ipynb' in the scraping folder
+2. 'timeline.ipynb' in the visualisations folder
+3. 'interactive_plot.ipynb' in the visualisations folder
+4. 'lda_visualisation.ipynb' in the visualisations folder
+5. 'wordcloud_visualisation.ipynb' in the visualisations folder
 
 
 ## DATA
