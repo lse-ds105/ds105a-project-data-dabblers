@@ -22,7 +22,7 @@ body {
 .nav-item a, .nav-item a:visited {
     color: black;
     font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
+    font-size: 10px;
   }
 
 .sidebar {
@@ -33,7 +33,7 @@ body {
   background-color: black !important;
   }
 
-.sidebar-item a, .sidebar-item a:visited {
+.sidebar-item ul, .sidebar-item ul:visited {
     color: #26f86c;
     font-family: 'Press Start 2P', cursive;
     font-size: 12px;
