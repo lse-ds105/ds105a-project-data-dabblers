@@ -39,6 +39,7 @@ body {
 
 .sidebar {
     background-color: black !important;
+    width: 15%;
   }
 
 .margin-sidebar {
