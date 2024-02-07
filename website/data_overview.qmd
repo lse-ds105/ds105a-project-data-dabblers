@@ -26,6 +26,69 @@ format: html
 
 <iframe src="interactive_timeline.html" style="width: 100%; height: 70vh;" frameborder="0"></iframe>
 
+<br>
+
+###### 4 January 2021: 
+###### First Trading Day of 2021
+GME stock closes at $17.25 on the first day of trading in 2021.
+
+At this point around 63% of the company’s outstanding shares are short sold, mainly by major hedge funds and institutional investors.
+
+<br>
+
+###### 11 January 2021: 
+###### New Leaders Appointed
+GME appoints new leaders to its board of directors, which sparks optimism among investors.
+ 
+<br>
+
+###### 22 January 2021: 
+###### Shares Surge by 50%
+GME’s short interest has increased to 140% - more shares had been sold short than existed on the market. 
+As a result, price goes up by over 50% to close at $65.01.
+ 
+<br>
+
+###### 27 January 2021: 
+###### Highest Close
+GameStop's stock price closed at $347.51, its highest close of the squeeze.
+
+The U.S. equity and options trading volume reached its highest-ever single-day level.
+
+Melvin Capital and Citron, two hedge funds that had been shorting GameStop stock, were forced to cover most of their short positions at huge losses.
+
+<br>
+
+###### 28 January 2021: 
+###### Robinhood Restriction
+Robinhood, a popular brokerage app among r/wallstreetbets investors restricted trading GME stock, meaning retail investors could only sell the stock and could no longer buy it. 
+
+The subsequent sell off resulted in GME price crashing and triggered suspicions of market manipulation in favour of the institutional investors who were shorting GME.
+
+<br>
+
+###### 4 February 2021: 
+###### Restrictions Lifted
+Trading restrictions on GME are lifted.
+
+<br>
+
+###### 19 February 2021: 
+###### Post Squeeze Low
+GME sinks to a post-squeeze low of $40.59.
+ 
+<br>
+
+###### 24 February 2021: 
+###### Congress Hearing
+US Congress held a hearing to explore the impact of online communities on financial markets following the events of the Gamestop short squeeze.
+ 
+<br>
+
+###### 10 March 2021: 
+###### Post Squeeze High
+GME reaches a post-squeeze high of $264.52.
+
 
 <img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: fixed; bottom: 35px; left: 0px; z-index: 2;">
 
