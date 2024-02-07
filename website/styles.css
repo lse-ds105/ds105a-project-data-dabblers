@@ -25,6 +25,10 @@ body {
     font-size: 12px;
   }
 
+.dropdown-item {
+  font-size: 10px;
+}
+
 .sidebar {
     background-color: black !important;
   }
