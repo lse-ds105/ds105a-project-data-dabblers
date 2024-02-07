@@ -5,9 +5,12 @@ format: html
 
 ## r/wallstreetbets Posts
 
+
 ### Cleaning Process
 
 <img src="images/reddit_cleaning_process.png" alt="Reddit Cleaning" style="width: 100%; height: auto;">
+
+
 
 ### Challenges Faced
 
@@ -21,11 +24,15 @@ format: html
 
 
 
+
 ## GameStop Stock Prices
+
 
 ### Cleaning Process
 
 <img src="images/gme_cleaning_process.png" alt="GME Cleaning" style="width: 100%; height: auto;">
+
+
 
 ### Challenges Faced
 
