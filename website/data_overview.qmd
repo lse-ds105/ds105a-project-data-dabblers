@@ -15,18 +15,15 @@ format: html
 
 ## Interactive Plot
 
+[Click here to view in separate window](interactive_plot.html){target="_blank" rel="noopener"}
+
 <iframe src="interactive_plot.html" style="width: 100%; height: 100vh;" frameborder="0"></iframe>
-
-[Click here to view in separate window](interactive_plot.html){:target="_blank"}
-
-<br>
-<br>
 
 ## Interactive Timeline
 
-<iframe src="interactive_timeline.html" style="width: 100%; height: 70vh;" frameborder="0"></iframe>
+[Click here to view in separate window](interactive_timeline.html){target="_blank" rel="noopener"}
 
-[Click here to view in separate window](interactive_timeline.html){:target="_blank"}
+<iframe src="interactive_timeline.html" style="width: 100%; height: 70vh;" frameborder="0"></iframe>
 
 
 <img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: fixed; bottom: 35px; left: 0px; z-index: 2;">
