@@ -7,7 +7,7 @@ execute:
 
 
 ## Wordclouds From Each Month
-<img src="images/january.png" alt="January Word Cloud" style="width: 33%; height: auto;"> <img src="images/february.png" alt="February Word Cloud" style="width: 33%; height: auto;"> <img src="images/march.png" alt="March Word Cloud" style="width: 33%; height: auto;">
+<img src="images/january.png" alt="January Word Cloud" style="width: 32%; height: auto;"> <img src="images/february.png" alt="February Word Cloud" style="width: 32%; height: auto;"> <img src="images/march.png" alt="March Word Cloud" style="width: 32%; height: auto;">
 
 ## LDA
 {{< notebook "../visualisations/LDA_vis.ipynb" >}}
