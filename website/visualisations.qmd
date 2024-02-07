@@ -56,7 +56,7 @@ Regardless, the LDA visualisation offered intriguing insights, revealing underly
 
 <br>
 
-<iframe src="/visualisations/LDA_vis.html" width="100%" height="600px"></iframe>
+<iframe src="/visualisations/LDA_visualisation.html" width="100%" height="600px"></iframe>
 
 <br>
 
