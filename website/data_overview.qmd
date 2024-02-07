@@ -8,6 +8,9 @@ format: html
 
 <img src="images/gme_candlestick_chart.png" alt="GME Candlestick Chart" style="width: 100%; height: auto;">
 
+The candlestick chart illustrates extreme volatility in late January, with very wide price ranges indicating sharp fluctuations in investor sentiment. This is marked by large 'wicks' on the candlesticks, which represent the high and low prices reached each day.
+
+The highest price volatility aligns with the period of the short squeeze, which is also when the trading volume surged, as depicted by the tall green bars. Post-squeeze, the price stabilized but remained elevated compared to the start of the year, with lower trading volumes suggesting a normalization of trading activity. The overall trend after the squeeze shows a reduction in both price and volume, indicating a cooling-off period following the frenzy.
 
 <br>
 
@@ -16,6 +19,23 @@ format: html
 [Scroll horizontally to view full plot, click here to view in separate window](interactive_plot.html){target="_blank" rel="noopener"}
 
 <iframe src="interactive_plot.html" style="width: 100%; height: 100vh;" frameborder="0"></iframe>
+
+This analysis confirms the sequence of events during the GameStop (GME) trading episode, with clear visualizations that connect stock changes to key moments and Reddit activity. The graph concisely shows how GME's stock price, trading volume, and Reddit discussions moved in sync, highlighting the influence of investor sentiment on the market.
+
+The plot reveals how periods of heightened Reddit activity align with spikes in both stock price and trading volume, suggesting a correlation between online sentiment and market movements.
+
+The size of the circles, denoting the total number of Reddit posts, generally increases with trading volume, implying more discussions on days with heavy trading. Similarly, darker circles, indicating more comments, tend to appear alongside significant shifts in the stock's closing price. This pattern suggests that as the stock captured more attention, it resulted in not only more posts but also more in-depth discussions on Reddit.
+
+#### Key Highlights
+January 22nd, when GME's stock surged by over 50%, closing at $65.01 as the short interest reached an astounding 140%. The graph shows a corresponding increase in Reddit activity, underscoring the online community's role in the stock's performance.
+
+The climax of the graph is January 27th, the date of GameStop's highest close at $347.51, a result compounded by a short squeeze that forced institutions like Melvin Capital and Citron to cover their shorts at significant losses. The next day, Robinhood restricted GME trading, leading to a price drop and widespread allegations of market manipulation.
+
+The visual data reveals that on February 4th, with trading restrictions lifted, the stock did not immediately recover, hitting a post-squeeze low of $40.59 by February 19th. However, online discussions remained robust, as evidenced by the high volume of comments.
+
+Later, on February 24th, a congressional hearing was held to dissect the impact of such online communities, but the stock had not yet settled, reaching a post-squeeze high of $264.52 on March 10th.
+
+The graph succinctly encapsulates this period, illustrating the rapid shifts in stock price alongside the fluctuating intensity of Reddit discussions, serving as a testament to the profound impact social media can have on financial markets.
 
 
 <img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: fixed; bottom: 35px; left: 0px; z-index: 2;">

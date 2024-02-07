@@ -28,11 +28,11 @@ Our project stems from a fascination with this event and its disruption to tradi
 The GameStop short squeeze in early 2021 saw a remarkable surge in the stock price of GameStop (GME). This surge was orchestrated by retail investors, particularly through the Reddit community r/wallstreetbets. As these investors bought GME shares en masse, it forced hedge funds and institutional investors, who had bet against the stock, to cover their positions, causing GME's price to skyrocket.
 
 
-### *Interactive Timeline*
+### *Interactive Timeline* 
 
-[Click here for notebook.](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/timeline.ipynb)
+[Click here for notebook](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/timeline.ipynb)
 
-See website for full timeline.
+See website for full timeline
 
 <br>
 
@@ -113,11 +113,10 @@ Relevant file: [GME JSON File](https://github.com/lse-ds105/ds105a-project-data-
 
 ![](docs/images/gme_candlestick_chart.png "GME Candlestick Chart")
 
-#### Interactive plot: 
 
-[Click here for notebook.](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/interactive_plot.ipynb)
+#### Interactive plot: [click here for notebook](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/interactive_plot.ipynb)
 
-See website for full plot.
+See website for full plot
 
 <br>
 
@@ -130,11 +129,9 @@ See website for full plot.
     <img src="docs/images/march.png" alt="March" style="width: 30%; height: auto;">
 </div>
 
-#### LDA analysis:
+#### LDA analysis: [click here for notebook](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/LDA_visualisation.ipynb)
 
-[Click here for notebook.](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/LDA_visualisation.ipynb)
-
-See website for full visualisation.
+See website for full visualisation
 
 #### Sentiment analysis:
 ![](docs/images/sentiment_analysis.png "Sentiment Analysis")
