@@ -18,14 +18,14 @@
     "href": "visualisations.html#introduction",
     "title": "Mobilisation Insights",
     "section": "Introduction",
-    "text": "Introduction\nThe initial analysis corroborated what we knew about the GME event, with visualisations clearly delineating the saga and linking stock fluctuations to real-time events effectively.\nOur next goal was to dive deeper into the phenomenon of how a dispersed group mobilised for change. Based on prior literature, we aimed to understand how they engaged in ‘connective action’ (Bennet, 2012), where the subreddit engages in collective action emerging from the use of digital media. Importantly, this refers to (i) decentralised and personalised participation, (ii) where a narrative is pursued against the establishment. We believe the incident meets these criteria.\nThis analysis, new to us, sought to identify trends and themes that explained the ‘why’ and ‘how’ of their collective action, without a predetermined path for investigation."
+    "text": "Introduction\nThe initial analysis corroborated what we knew about the GME event, with visualisations clearly delineating the saga and linking stock fluctuations to real-time events effectively.\nOur next goal was to dive deeper into the phenomenon of how a dispersed group mobilised for change. Based on prior literature, we aimed to understand how they engaged in ‘connective action’ (Bennet, 2012)1, where the subreddit engages in collective action emerging from the use of digital media. Importantly, this refers to (i) decentralised and personalised participation, (ii) where a narrative is pursued against the establishment. We believe the incident meets these criteria.\nThis analysis, new to us, sought to identify trends and themes that explained the ‘why’ and ‘how’ of their collective action, without a predetermined path for investigation."
   },
   {
     "objectID": "visualisations.html#word-cloud-analysis",
     "href": "visualisations.html#word-cloud-analysis",
     "title": "Mobilisation Insights",
     "section": "Word Cloud Analysis",
-    "text": "Word Cloud Analysis\nWord clouds offered an immediate visualisation of key terms, guiding our deeper investigation towards more substantive and actionable insights.\n  \n\nJanuary Word Cloud:\nJanuary: The term “buy” stands out prominently, along with “stock” and “GME,” signalling a strong buying sentiment and interest in GME stock. This suggests an alignment with the initial surge in GME’s share price, indicating a period of heightened investor enthusiasm.\n\n\nFebruary Word Cloud:\nFebruary: Words like “hold” and “now” emerge as dominant, reflecting ongoing interest in GME. This seems to support the narrative of investors holding onto their shares amidst market fluctuations, showcasing a collective resolve.\n\n\nMarch Word Cloud:\nMarch: “Price” and “share” continue to be significant, complemented by the appearance of “million” and “sell.” This shift might denote discussions around profit-taking or evaluating the stock’s worth following its earlier rally, pointing to a more cautious or strategic approach by the community.\nThese insights are analogous to those speculated throughout our interactive timeline.\n\n\nIssues\nWhile word clouds provide an intuitive and visually appealing way to explore textual data, their reliance on the frequency of individual words can lead to oversimplification, especially with complex topics like the GME saga. This method overlooks the context in which words are used together, missing crucial nuances and the relationships between terms. Therefore, we felt it necessary to augment these word clouds with more advanced text analysis tools to grasp the subtleties and deeper insights of such discussions."
+    "text": "Word Cloud Analysis\nWord clouds offered an immediate visualisation of key terms, guiding our deeper investigation towards more substantive and actionable insights.\n  \n\nJanuary Word Cloud\nJanuary: The term “buy” stands out prominently, along with “stock” and “GME,” signalling a strong buying sentiment and interest in GME stock. This suggests an alignment with the initial surge in GME’s share price, indicating a period of heightened investor enthusiasm.\n\n\nFebruary Word Cloud\nFebruary: Words like “hold” and “now” emerge as dominant, reflecting ongoing interest in GME. This seems to support the narrative of investors holding onto their shares amidst market fluctuations, showcasing a collective resolve.\n\n\nMarch Word Cloud\nMarch: “Price” and “share” continue to be significant, complemented by the appearance of “million” and “sell.” This shift might denote discussions around profit-taking or evaluating the stock’s worth following its earlier rally, pointing to a more cautious or strategic approach by the community.\nThese insights are analogous to those speculated throughout our interactive timeline.\n\n\nIssues\nWhile word clouds provide an intuitive and visually appealing way to explore textual data, their reliance on the frequency of individual words can lead to oversimplification, especially with complex topics like the GME saga. This method overlooks the context in which words are used together, missing crucial nuances and the relationships between terms. Therefore, we felt it necessary to augment these word clouds with more advanced text analysis tools to grasp the subtleties and deeper insights of such discussions."
   },
   {
     "objectID": "visualisations.html#lda-analysis",
@@ -40,6 +40,23 @@
     "title": "Mobilisation Insights",
     "section": "Sentiment Analysis",
     "text": "Sentiment Analysis\nSentiment analysis, in the context of stock market behaviour, serves as a powerful tool to gauge the mood and opinions of a wide array of market participants.\nBy quantifying emotions and views expressed across social media platforms, news articles, and other mediums, sentiment analysis provides an overview of the collective attitude toward a particular stock or the market in general.\nIt is crucial to note that the insights drawn do not imply causation.\n\n\n\nThe sentiment analysis plot for GME stock illustrates several points of interest:\n\nThere is a visible correlation where increases in sentiment scores often coincide with or precede rises in GME’s stock price.\n\n\nSharp spikes in sentiment appear to foreshadow significant upticks in stock price, suggesting that heightened positive sentiment could influence trading behaviour.\n\n\nThe sentiment’s role is not uniform; it varies, sometimes acting as a leading indicator and other times trailing the stock price changes.\n\nThese observations underscore the interconnectedness of sentiment and stock prices, although the exact nature of this relationship remains complex and non-causal."
+  },
+  {
+    "objectID": "visualisations.html#footnotes",
+    "href": "visualisations.html#footnotes",
+    "title": "Mobilisation Insights",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nW. Lance Bennett & Alexandra Segerberg (2012) THE LOGIC OF CONNECTIVE ACTION, Information, Communication & Society, 15:5, 739-768, DOI: 10.1080/1369118X.2012.670661↩︎"
+  },
+  {
+    "objectID": "collection.html",
+    "href": "collection.html",
+    "title": "Data Collection",
+    "section": "",
+    "text": "Overall we collected…",
+    "crumbs": [
+      "Data Collection"
+    ]
   },
   {
     "objectID": "collection.html#rwallstreetbets-posts",
@@ -122,21 +139,21 @@
   {
     "objectID": "conclusions.html#candlestick-chart-and-interactive-plot",
     "href": "conclusions.html#candlestick-chart-and-interactive-plot",
-    "title": "Conclusions",
+    "title": "Our Conclusions",
     "section": "Candlestick Chart and Interactive Plot",
     "text": "Candlestick Chart and Interactive Plot"
   },
   {
     "objectID": "conclusions.html#mobilisation-insights",
     "href": "conclusions.html#mobilisation-insights",
-    "title": "Conclusions",
+    "title": "Our Conclusions",
     "section": "Mobilisation Insights",
-    "text": "Mobilisation Insights\n\nWord Clouds:\nThey served as our initial compass, highlighting prevalent terms and granting us a bird’s-eye view of the dominant discourse. While informative, word clouds merely scratch the surface, offering a glimpse rather than a deep dive.\n\n\nLDA Analysis:\nAdvancing to LDA provided a more structured understanding of the conversations taking place. It revealed clusters of discussion around topics like “GME,” “squeeze,” and “hold,” which reflect facets of the community’s collective action. However, the true significance of these topics requires context that goes beyond their frequency and distribution.\n\n\nSentiment Analysis:\nOur sentiment analysis painted a narrative of rising and falling emotional tides within the GME dialogue. Peaks in sentiment seemed to walk hand-in-hand with stock price movements, but this visual waltz should not be mistaken for a causal relationship. Multiple unseen variables could be at play, and sentiment is but one actor on a crowded stage.\nUltimately, with the current insights, we can surmise interesting patterns and correlations across the data. Yet, we acknowledge that these are not definitive conclusions."
+    "text": "Mobilisation Insights\n\nWord Clouds\nThey served as our initial compass, highlighting prevalent terms and granting us a bird’s-eye view of the dominant discourse. While informative, word clouds merely scratch the surface, offering a glimpse rather than a deep dive.\n\n\nLDA Analysis\nAdvancing to LDA provided a more structured understanding of the conversations taking place. It revealed clusters of discussion around topics like “GME,” “squeeze,” and “hold,” which reflect facets of the community’s collective action. However, the true significance of these topics requires context that goes beyond their frequency and distribution.\n\n\nSentiment Analysis\nOur sentiment analysis painted a narrative of rising and falling emotional tides within the GME dialogue. Peaks in sentiment seemed to walk hand-in-hand with stock price movements, but this visual waltz should not be mistaken for a causal relationship. Multiple unseen variables could be at play, and sentiment is but one actor on a crowded stage.\nUltimately, with the current insights, we can surmise interesting patterns and correlations across the data. Yet, we acknowledge that these are not definitive conclusions."
   },
   {
     "objectID": "conclusions.html#further-analysis",
     "href": "conclusions.html#further-analysis",
-    "title": "Conclusions",
+    "title": "Our Conclusions",
     "section": "Further Analysis",
     "text": "Further Analysis\nWhile the word cloud, LDA, and sentiment analysis have yielded valuable insights into the GME saga, providing a glimpse into the collective mindset and topics of discussion, there’s room for deeper exploration. If, for example, we had the ability to track individual user behaviour over time, access more granular transaction data, and monitor comment threads in real-time, we could pursue a more comprehensive analysis.\n\nBy implementing these, and approaching the data from different angles such as through time-series analysis, or machine learning models we could potentially:\n\nUnderstanding the speed and magnitude of the market’s reaction to real-time events.\n\n\nIdentify the causative influence, if any, of sentiment on price movements.\n\n\nForecast future stock price trends based on current sentiment data.\n\n\nAnd thus:\n\nUnderstand the predictive power of sentiment over stock prices.\n\n\nAssess the degree to which sentiment reflects broader market trends or specific events.\n\n\nProvide actionable intelligence for traders and market analysts, enhancing decision-making processes.\n\n\nWith access to longitudinal data, user-level interactions, and the capability to parse the subtleties of sentiment in real-time, we could potentially unravel the causative threads of market movements."
   },

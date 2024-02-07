@@ -1,5 +1,5 @@
 ---
-title: "Conclusions"
+title: "Our Conclusions"
 format: html
 ---
 <br>
@@ -12,13 +12,13 @@ format: html
 
 ## Mobilisation Insights
 
-#### Word Clouds:
+#### Word Clouds
 They served as our initial compass, highlighting prevalent terms and granting us a bird's-eye view of the dominant discourse. While informative, word clouds merely scratch the surface, offering a glimpse rather than a deep dive.
 
-#### LDA Analysis:
+#### LDA Analysis
 Advancing to LDA provided a more structured understanding of the conversations taking place. It revealed clusters of discussion around topics like "GME," "squeeze," and "hold," which reflect facets of the community's collective action. However, the true significance of these topics requires context that goes beyond their frequency and distribution.
 
-#### Sentiment Analysis: 
+#### Sentiment Analysis
 Our sentiment analysis painted a narrative of rising and falling emotional tides within the GME dialogue. Peaks in sentiment seemed to walk hand-in-hand with stock price movements, but this visual waltz should not be mistaken for a causal relationship. Multiple unseen variables could be at play, and sentiment is but one actor on a crowded stage.
 
 Ultimately, with the current insights, we can surmise interesting patterns and correlations across the data. Yet, we acknowledge that these are not definitive conclusions.
