@@ -93,7 +93,7 @@ Relevant folder: [Reddit CSV Files](https://github.com/lse-ds105/ds105a-project-
 
 Relevant file: [GME JSON File](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/data/gme_data/gme_daily_data.json)
 
-#### Collection process:
+#### Collection process: [click here for notebook](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/scraping/stock_price_scraping.ipynb)
 
 ![](docs/images/gme_scraping_process.png "GameStop Stock Data Scraping Process")
 
