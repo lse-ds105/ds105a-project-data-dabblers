@@ -63,6 +63,9 @@ Regardless, the LDA visualisation offered intriguing insights, revealing underly
 ```{=nb}
 ../visualisations/LDA_vis.ipynb
 ```
+
+<iframe src="/visualisations/LDA_vis.html" width="100%" height="600px"></iframe>
+
 <br>
 <br>
 
