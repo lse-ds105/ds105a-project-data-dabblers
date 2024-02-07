@@ -7,7 +7,7 @@ format: html
 
 ### Collection Process
 
-<img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 120%; height: auto;">
+<img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">
 
 ### Challenges Faced
 
@@ -24,7 +24,7 @@ format: html
 
 ### Collection Process
 
-<img src="images/gme_scraping_process.png" alt="GME Scraping" style="width: 120%; height: auto;">
+<img src="images/gme_scraping_process.png" alt="GME Scraping" style="width: 100%; height: auto;">
 
 ### Challenges Faced
 
