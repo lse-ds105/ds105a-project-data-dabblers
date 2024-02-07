@@ -62,7 +62,10 @@ pip install -r requirements.txt
 ## USAGE
 
 *Provide instructions and examples for use. Include screenshots as needed.*
-
+To reproduce the code and visualisations in the website:
+    Run 'stock_price_scraping.ipynb' in the scraping folder
+    Run 'timeline.ipynb' in the visualisations folder
+    Run 'interactive_visualisation.ipynb' in the visualisations folder
 
 ## DATA
 
