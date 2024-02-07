@@ -5,12 +5,26 @@ body {
     background-color: black !important;
     color: white;
     font-family: 'Press Start 2P', cursive;
-    font-size: 2px;
+    font-size: 6px;
     line-height: 1.5;
   }
-  
+
+.quarto-search {
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4px;
+  line-height: 1.5;
+  }
+
 .navbar {
     background-color: hotpink !important;
+  }
+
+.navbar-title {
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+    line-height: 1.5;
   }
 
 .nav-item a, .nav-item a:visited {
@@ -35,7 +49,13 @@ body {
     line-height: 1.5;
   }
 
-.toc-active ul, .toc-active ul:visited {
+.toc-title {
+  color: #4630d5;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8px;
+  line-height: 1.5;
+}
+.toc-active a, .toc-active a:visited {
     color: #4630d5;
     font-family: 'Press Start 2P', cursive;
     font-size: 8px;
