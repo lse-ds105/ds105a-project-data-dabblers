@@ -124,9 +124,9 @@ See website for full plot.
 
 #### Word cloud analysis:
 <div style="display: flex;">
-    <img src="docs/images/january.png" alt="January" style="width: 30%; height: auto;">
-    <img src="docs/images/february.png" alt="February" style="width: 30%; height: auto;">
-    <img src="docs/images/march.png" alt="March" style="width: 30%; height: auto;">
+    <img src="docs/images/january.png" alt="January" style="width: 33%; height: auto;">
+    <img src="docs/images/february.png" alt="February" style="width: 33%; height: auto;">
+    <img src="docs/images/march.png" alt="March" style="width: 33%; height: auto;">
 </div>
 
 #### LDA analysis: [click here for notebook](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/LDA_visualisation.ipynb)
