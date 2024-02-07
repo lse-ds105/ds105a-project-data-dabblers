@@ -3,6 +3,8 @@ title: "Visualisations"
 format: html
 execute:
   enabled: true
+inputs:
+  - ../visualisations/LDA_vis.ipynb
 ---
 
 
@@ -11,11 +13,6 @@ execute:
 
 ## LDA
 {{< notebook "../visualisations/LDA_vis.ipynb" >}}
-
-```{.python .ipython}
-#| echo: false
-#| code-fold: true
-#| input: ../visualisations/LDA_vis.ipynb
 
 
 ## Sentiment Analysis
