@@ -1,10 +1,6 @@
 ---
 title: "Mobilisation Insights"
 format: html
-execute:
-  enabled: true
-inputs:
-  - ../visualisations/LDA_vis.ipynb
 ---
 <br>
 
@@ -56,7 +52,7 @@ Regardless, the LDA visualisation offered intriguing insights, revealing underly
 
 <br>
 
-<iframe src="/visualisations/LDA_visualisation.html" width="100%" height="600px"></iframe>
+<iframe src="lda_visualisation.html" width="100%" height="600px"></iframe>
 
 <br>
 
