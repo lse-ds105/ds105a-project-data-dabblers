@@ -11,6 +11,7 @@
 6. [Credits](#credits)
 7. [License](#license)
 
+<br>
 
 ## PROJECT OVERVIEW
 
@@ -29,7 +30,7 @@ The GameStop short squeeze in early 2021 saw a remarkable surge in the stock pri
 
 ### *Interactive Timeline*
 
-<iframe src="interactive_timeline.html" class="custom-iframe"></iframe>
+<iframe src="docs/interactive_timeline.html" class="custom-iframe"></iframe>
 
 <style>
 .custom-iframe {
@@ -39,6 +40,7 @@ The GameStop short squeeze in early 2021 saw a remarkable surge in the stock pri
 }
 </style>
 
+<br>
 
 ## INSTALLATION
 
@@ -46,6 +48,7 @@ Run in the command line:
 
     pip install -r requirements.txt
 
+<br>
 
 ## USAGE
 
@@ -56,6 +59,7 @@ To reproduce the code and visualisations in the website run...
 4. 'lda_visualisation.ipynb' in the visualisations folder
 5. 'wordcloud_visualisation.ipynb' in the visualisations folder
 
+<br>
 
 ## DATA
 
@@ -63,6 +67,8 @@ To reproduce the code and visualisations in the website run...
 
 1. Alpha Vantage API
 2. CSV file of Reddit API data - sourced from LSE alumni
+
+<br>
 
 ### *Collection and Cleaning of Reddit Data*
 
@@ -87,6 +93,7 @@ Relevant folder: [Reddit CSV Files](https://github.com/lse-ds105/ds105a-project-
 
 <img src="docs/images/cleaned_reddit_dataframe.png" alt="cleaned_reddit_dataframe" width="40%" height="auto">
 
+<br>
 
 ### *Collection and Cleaning of GameStock Stock Data*
 
@@ -104,17 +111,51 @@ Relevant file: [GME JSON File](https://github.com/lse-ds105/ds105a-project-data-
 
 <img src="docs/images/merged_dataframes.png" alt="merged_dataframes" width="70%" height="auto">
 
-### *Data Sources*
+<br>
 
-LINK CANDLESTICK MIT [LICENSE](LICENSE)
+### *Data Analysis*
 
-LINK PLOT [LICENSE](LICENSE)
+#### Candlestick chart:
+![](docs/images/gme_candlestick_chart.png "GME Candlestick Chart")
 
+#### Interactive plot:
+
+<iframe src="docs/interactive_plot.html" class="custom-iframe"></iframe>
+
+<style>
+.custom-iframe {
+    width: 100%;
+    height: 70vh;
+    border: none;
+}
+</style>
+
+<br>
 
 ## VISUALISATIONS
 
-LINK LDA [LICENSE](LICENSE)
+#### Word cloud analysis:
+<div style="display: flex;">
+    <img src="docs/images/january.png" alt="January" style="width: auto; height: 300px;">
+    <img src="docs/images/february.png" alt="February" style="width: auto; height: 300px;">
+    <img src="docs/images/march.png" alt="March" style="width: auto; height: 300px;">
+</div>
 
+#### LDA analysis:
+<iframe src="docs/lda_visualisation.html" class="custom-iframe"></iframe>
+
+<style>
+.custom-iframe {
+    width: 100%;
+    height: 70vh;
+    border: none;
+}
+</style>
+
+#### Sentiment analysis:
+![](docs/images/sentiment_analysis.png "Sentiment Analysis")
+
+<br>
 
 ## CREDITS
 
