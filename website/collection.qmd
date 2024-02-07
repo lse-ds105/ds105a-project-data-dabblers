@@ -3,7 +3,6 @@ title: "Data Collection"
 format: html
 ---
 <br>
-<br>
 
 ## r/wallstreetbets Posts  
 
@@ -12,7 +11,14 @@ format: html
 
 <img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">  
 
-<br>
+<div style="position: relative; width: 100%;">
+  <img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 0.3s;">
+    <img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">
+  </div>
+</div>
+
+
 <br>
 
 #### Challenges Faced
@@ -27,9 +33,8 @@ format: html
 
 5. API Access Challenges: Failed attempts to use another's Pushshift API access highlight the difficulties in obtaining necessary permissions for data access.
 
-6. Data Format Navigation: Requesting a CSV version of Reddit API data points to the challenges of managing and utilizing the provided data formats efficiently.  
+6. Data Format Navigation: Requesting a CSV version of Reddit API data points to the challenges of managing and utilising the provided data formats efficiently.  
 
-<br>
 <br>
 
 ## GameStop Stock Prices  
@@ -39,7 +44,6 @@ format: html
 
 <img src="images/gme_scraping_process.png" alt="GME Scraping" style="width: 100%; height: auto;">  
 
-<br>
 <br>
 
 #### Challenges Faced

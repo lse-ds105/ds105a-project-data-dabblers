@@ -183,13 +183,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><br> <br></p>
+<p><br></p>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>The initial analysis corroborated what we knew about the GME event, with visualisations clearly delineating the saga and linking stock fluctuations to real-time events effectively.</p>
 <p>Our next goal was to dive deeper into the phenomenon of how a dispersed group mobilised for change. Based on prior literature, we aimed to understand how they engaged in ‘connective action’ (Bennet, 2012), where the subreddit engages in collective action emerging from the use of digital media. Importantly, this refers to (i) decentralised and personalised participation, (ii) where a narrative is pursued against the establishment. We believe the incident meets these criteria.</p>
 <p>This analysis, new to us, sought to identify trends and themes that explained the ‘why’ and ‘how’ of their collective action, without a predetermined path for investigation.</p>
-<p><br> <br></p>
+<p><br></p>
 </section>
 <section id="word-cloud-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="word-cloud-analysis">Word Cloud Analysis</h2>
@@ -211,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="issues" class="level4">
 <h4 class="anchored" data-anchor-id="issues">Issues</h4>
 <p>While word clouds provide an intuitive and visually appealing way to explore textual data, their reliance on the frequency of individual words can lead to oversimplification, especially with complex topics like the GME saga. This method overlooks the context in which words are used together, missing crucial nuances and the relationships between terms. Therefore, we felt it necessary to augment these word clouds with more advanced text analysis tools to grasp the subtleties and deeper insights of such discussions.</p>
-<p><br> <br></p>
+<p><br></p>
 </section>
 </section>
 <section id="lda-analysis" class="level2">
@@ -220,12 +220,12 @@ ul.task-list li input[type="checkbox"] {
 <p>LDA is an unsupervised learning technique, which means it doesn’t require pre-labelled training data. This makes it suitable for exploratory data analysis where the themes or topics are not known a priori.</p>
 <p>However, the “topics” unearthed through LDA, being distributions of words, may not always encapsulate coherent or meaningful themes without careful interpretation. Also, LDA does not take into account the evolution of topics over time, which is relevant for this dynamic dataset.</p>
 <p>Regardless, the LDA visualisation offered intriguing insights, revealing underlying patterns and themes that were not immediately apparent.</p>
-<p><br> <br></p>
+<p><br></p>
 <iframe src="./visualisations/LDA_vis.html" width="100%" height="600px">
 </iframe>
-<p><br> <br></p>
+<p><br></p>
 <p>Terms like “moon,” “GME,” and “AMC” signal optimism towards rising stock prices, a perspective not captured in the word clouds. Similarly, “squeeze” and “hold” hint at trading strategy discussions, likely around short squeezes or maintaining positions through volatility.</p>
-<p><br> <br></p>
+<p><br></p>
 <p>Adjusting the LDA model’s parameters, including the number of topics and iterations, enhanced our coherence score. In a refined analysis with five topics, the model’s output was as follows:</p>
 <blockquote class="blockquote">
 <p>Topic 1: Focused on actions related to stocks, particularly “buying” and “removing” with a strong focus on GME and AMC, indicating investment strategy discussions.</p>
@@ -236,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>Topic 5: Related to trading timing, with advice on “buying dips” or “holding shares,” indicated by terms like “sell,” “tomorrow,” and “don’t stop”.</p>
 </blockquote>
-<p><br> <br></p>
+<p><br></p>
 <p>Using adjusted parameters, such as for three topics, the model’s output was as follows:</p>
 <blockquote class="blockquote">
 <p>Topic 1: Pertains to professional financial analysis, discussing company earnings, growth, and larger economic elements like policy impacts and sector advancements; e.g.&nbsp;“quarter,” “growth,” “sales,” and “earnings”.</p>
@@ -247,12 +247,12 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>Topic 3: Showcases individual financial narratives and community advice, marked by a blend of investment strategy talk and forum slang, such as “portfolio,” “money”, and “savings”.</p>
 </blockquote>
-<p><br> <br></p>
+<p><br></p>
 <section id="insights" class="level4">
 <h4 class="anchored" data-anchor-id="insights">Insights</h4>
 <p>LDA’s insights have been pivotal in unravelling the GME saga by showing how individual actors found common ground and formed a collective momentum, crucial aspects of connective action. The model revealed an alignment of interests and strategies, as terms like “moon,” “squeeze,” and “hold” reflect a shared optimism and a collective approach to trading.</p>
 <p>The LDA model pinpointed key phrases like “moon,” “squeeze,” and “hold” as unifiers within the GME community, illustrating how these terms helped coordinate individual efforts into collective action. This analysis provided concrete insights into the group’s strategy, demonstrating the dynamics of connective action where digital platforms were used to align individual actions against market norms.</p>
-<p><br> <br></p>
+<p><br></p>
 </section>
 </section>
 <section id="sentiment-analysis" class="level2">
@@ -260,9 +260,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Sentiment analysis, in the context of stock market behaviour, serves as a powerful tool to gauge the mood and opinions of a wide array of market participants.</p>
 <p>By quantifying emotions and views expressed across social media platforms, news articles, and other mediums, sentiment analysis provides an overview of the collective attitude toward a particular stock or the market in general.</p>
 <p>It is crucial to note that the insights drawn do not imply causation.</p>
-<p><br> <br></p>
+<p><br></p>
 <p><img src="images/sentiment_analysis.png" alt="Sentiment Analysis" style="width: 100%; height: auto;"></p>
-<p><br> <br></p>
+<p><br></p>
 <p>The sentiment analysis plot for GME stock illustrates several points of interest:</p>
 <blockquote class="blockquote">
 <p>There is a visible correlation where increases in sentiment scores often coincide with or precede rises in GME’s stock price.</p>

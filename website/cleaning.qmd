@@ -3,7 +3,6 @@ title: "Data Cleaning"
 format: html
 ---
 <br>
-<br>
 
 ## r/wallstreetbets Posts  
 
@@ -13,7 +12,6 @@ format: html
 <img src="images/reddit_cleaning_process.png" alt="Reddit Cleaning" style="width: 100%; height: auto;">  
 
 <br>
-<br>
 
 #### Challenges Faced
 
@@ -21,11 +19,10 @@ format: html
 
 2. Alignment: Formatting the 'date' column to 'datetime64' to ensure compatibility and precise alignment with GameStop (GME) stock price data for time series analysis.
 
-3. Aggregation: Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarization of data points, like total posts, average scores, or comments per day.
+3. Aggregation: Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarisation of data points, like total posts, average scores, or comments per day.
 
-4. Creating Dataframe: The overall process of transforming raw subreddit data into a cleaned and structured dataframe ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardizing data formats.  
+4. Create Data Frame: The overall process of transforming raw subreddit data into a cleaned and structured data frame ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardising data formats.  
 
-<br>
 <br>
 
 
@@ -37,17 +34,23 @@ format: html
 <img src="images/gme_cleaning_process.png" alt="GME Cleaning" style="width: 100%; height: auto;">  
 
 <br>
-<br>
 
 #### Challenges Faced
 
-Creating Dataframe: The overarching challenge of transforming the raw API data into a cleaned dataframe involves multiple sub-tasks.
+The overarching challenge of transforming the raw API data into a cleaned data frame involved multiple sub-tasks.
 
 - Ensuring data consistency and accuracy after type conversion.
 - Handling any missing or anomalous data points that could skew analysis.
-- Structuring the data in a way that aligns with analytical goals, ensuring it's ready for analysis or visualization.
+- Structuring the data in a way that aligns with analytical goals, ensuring it's ready for analysis or visualisation.
 
+<br>
 
+## Merging Data Frames
+Once the data was cleaned, the GME stock price data frame was merged with the r/wallstreetbets post data frame. 
+
+<img src="images/merged_dataframes.png" alt="Merged Data Frames" style="width: 100%; height: auto;"> 
+
+Rows containing ‘Nan’ indicate that the stock market was closed - these rows were subsequently dropped.
 
 
 <img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: fixed; bottom: 35px; left: 0px; z-index: 2;">
