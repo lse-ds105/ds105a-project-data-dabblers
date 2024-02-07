@@ -3,11 +3,19 @@ title: "Data Overview"
 format: html
 ---
 
-<h1>Interactive Plot</h1>
-<iframe src="visualisations/interactive_plot.html" style="width: 80%; height: auto;" frameborder="0"></iframe>
+## Candlestick Chart
 
-<h1>Interactive Timeline</h1>
-<iframe src="visualisations/interactive_timeline.html" style="width: 80%; height: auto;" frameborder="0"></iframe>
+<img src="images/gme_candlestick_chart.png" alt="GME Candlestick Chart" style="width: 100%; height: auto;">
+
+
+## Interactive Plot
+
+<iframe src="../visualisations/interactive_plot.html" style="width: 80%; height: auto;" frameborder="0"></iframe>
+
+
+## Interactive Timeline
+
+<iframe src="../visualisations/interactive_timeline.html" style="width: 80%; height: auto;" frameborder="0"></iframe>
 
 
 

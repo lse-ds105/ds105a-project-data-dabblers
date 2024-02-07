@@ -1,8 +1,10 @@
 /* css styles */
-  
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
     background-color: black !important;
     color: white;
+    font-family: 'Press Start 2P', cursive;
   }
   
 .navbar {
@@ -11,6 +13,7 @@ body {
 
 .nav-item a, .nav-item a:visited {
     color: black;
+    font-family: 'Press Start 2P', cursive;
   }
 
 .sidebar {
@@ -23,8 +26,10 @@ body {
 
 .sidebar-item a, .sidebar-item a:visited {
     color: #26f86c;
+    font-family: 'Press Start 2P', cursive;
   }
 
 .toc-active ul, .toc-active ul:visited {
     color: #4630d5;
+    font-family: 'Press Start 2P', cursive;
   }

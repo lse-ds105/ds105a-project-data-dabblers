@@ -51,11 +51,21 @@
     ]
   },
   {
-    "objectID": "data_overview.html",
-    "href": "data_overview.html",
+    "objectID": "data_overview.html#interactive-plot",
+    "href": "data_overview.html#interactive-plot",
     "title": "Data Overview",
-    "section": "",
-    "text": "Interactive Plot\n\n\n\n\nInteractive Timeline",
+    "section": "Interactive Plot",
+    "text": "Interactive Plot",
+    "crumbs": [
+      "Data Overview"
+    ]
+  },
+  {
+    "objectID": "data_overview.html#interactive-timeline",
+    "href": "data_overview.html#interactive-timeline",
+    "title": "Data Overview",
+    "section": "Interactive Timeline",
+    "text": "Interactive Timeline",
     "crumbs": [
       "Data Overview"
     ]
