@@ -9,12 +9,12 @@ body {
     line-height: 1.5;
   }
 
-  .search-icon {
-    font-size: 16px; /* Or some other unit of measurement */
+.quarto-search {
+    font-size: 16px;
   }
 
-.github-icon {
-    font-size: 24px; /* New size */
+.quarto-navbar-tools {
+    font-size: 16px;
   }
 
 .navbar {
