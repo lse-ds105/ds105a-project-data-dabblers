@@ -51,4 +51,6 @@ Creating Dataframe: The overarching challenge of transforming the raw API data i
 
 <img src="images/chest.png" alt="Chest" style="width: 8%; height: auto; position: fixed; bottom: 35px; right: 0px; z-index: 2;">
 
+<img src="images/coin.png" alt="Coin" style="width: 3%; height: auto; position: fixed; bottom: 45px; right: 110px; z-index: 2;">
+
 <img src="images/man.png" alt="Man" style="width: 8%; height: auto; position: fixed; bottom: 35px; right: 150px; z-index: 2;">
