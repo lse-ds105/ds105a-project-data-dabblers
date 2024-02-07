@@ -46,6 +46,8 @@ To reproduce the code and visualisations in the website:
     Run 'stock_price_scraping.ipynb' in the scraping folder
     Run 'timeline.ipynb' in the visualisations folder
     Run 'interactive_plot.ipynb' in the visualisations folder
+    Run 'lda_visualisation.ipynb' in the visualisations folder
+    Run 'wordcloud_visualisation.ipynb' in the visualisations folder
 
 
 ## DATA
