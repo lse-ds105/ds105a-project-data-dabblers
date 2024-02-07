@@ -18,6 +18,11 @@ format: html
   </div>
 </div>
 
+<div style="position: relative; width: 100%;">
+  <img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">
+</div>
+
+
 
 <br>
 

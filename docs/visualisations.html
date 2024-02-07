@@ -155,8 +155,14 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#word-cloud-analysis" id="toc-word-cloud-analysis" class="nav-link" data-scroll-target="#word-cloud-analysis">Word Cloud Analysis</a></li>
-  <li><a href="#lda-analysis" id="toc-lda-analysis" class="nav-link" data-scroll-target="#lda-analysis">LDA Analysis</a></li>
+  <li><a href="#word-cloud-analysis" id="toc-word-cloud-analysis" class="nav-link" data-scroll-target="#word-cloud-analysis">Word Cloud Analysis</a>
+  <ul class="collapse">
+  <li><a href="#issues" id="toc-issues" class="nav-link" data-scroll-target="#issues">Issues</a></li>
+  </ul></li>
+  <li><a href="#lda-analysis" id="toc-lda-analysis" class="nav-link" data-scroll-target="#lda-analysis">LDA Analysis</a>
+  <ul class="collapse">
+  <li><a href="#insights" id="toc-insights" class="nav-link" data-scroll-target="#insights">Insights</a></li>
+  </ul></li>
   <li><a href="#sentiment-analysis" id="toc-sentiment-analysis" class="nav-link" data-scroll-target="#sentiment-analysis">Sentiment Analysis</a></li>
   </ul>
 </nav>
@@ -196,20 +202,20 @@ ul.task-list li input[type="checkbox"] {
 <p>Word clouds offered an immediate visualisation of key terms, guiding our deeper investigation towards more substantive and actionable insights.</p>
 <p><img src="images/january.png" alt="January Word Cloud" style="width: 32%; height: auto;"> <img src="images/february.png" alt="February Word Cloud" style="width: 32%; height: auto;"> <img src="images/march.png" alt="March Word Cloud" style="width: 32%; height: auto;"></p>
 <section id="january-word-cloud" class="level4">
-<h4 class="anchored" data-anchor-id="january-word-cloud">January Word Cloud</h4>
+<h4 class="anchored" data-anchor-id="january-word-cloud">January Word Cloud:</h4>
 <p>January: The term “buy” stands out prominently, along with “stock” and “GME,” signalling a strong buying sentiment and interest in GME stock. This suggests an alignment with the initial surge in GME’s share price, indicating a period of heightened investor enthusiasm.</p>
 </section>
 <section id="february-word-cloud" class="level4">
-<h4 class="anchored" data-anchor-id="february-word-cloud">February Word Cloud</h4>
+<h4 class="anchored" data-anchor-id="february-word-cloud">February Word Cloud:</h4>
 <p>February: Words like “hold” and “now” emerge as dominant, reflecting ongoing interest in GME. This seems to support the narrative of investors holding onto their shares amidst market fluctuations, showcasing a collective resolve.</p>
 </section>
 <section id="march-word-cloud" class="level4">
-<h4 class="anchored" data-anchor-id="march-word-cloud">March Word Cloud</h4>
+<h4 class="anchored" data-anchor-id="march-word-cloud">March Word Cloud:</h4>
 <p>March: “Price” and “share” continue to be significant, complemented by the appearance of “million” and “sell.” This shift might denote discussions around profit-taking or evaluating the stock’s worth following its earlier rally, pointing to a more cautious or strategic approach by the community.</p>
 <p>These insights are analogous to those speculated throughout our interactive timeline.</p>
 </section>
-<section id="issues" class="level4">
-<h4 class="anchored" data-anchor-id="issues">Issues</h4>
+<section id="issues" class="level3">
+<h3 class="anchored" data-anchor-id="issues">Issues</h3>
 <p>While word clouds provide an intuitive and visually appealing way to explore textual data, their reliance on the frequency of individual words can lead to oversimplification, especially with complex topics like the GME saga. This method overlooks the context in which words are used together, missing crucial nuances and the relationships between terms. Therefore, we felt it necessary to augment these word clouds with more advanced text analysis tools to grasp the subtleties and deeper insights of such discussions.</p>
 <p><br></p>
 </section>
@@ -248,8 +254,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Topic 3: Showcases individual financial narratives and community advice, marked by a blend of investment strategy talk and forum slang, such as “portfolio,” “money”, and “savings”.</p>
 </blockquote>
 <p><br></p>
-<section id="insights" class="level4">
-<h4 class="anchored" data-anchor-id="insights">Insights</h4>
+<section id="insights" class="level3">
+<h3 class="anchored" data-anchor-id="insights">Insights</h3>
 <p>LDA’s insights have been pivotal in unravelling the GME saga by showing how individual actors found common ground and formed a collective momentum, crucial aspects of connective action. The model revealed an alignment of interests and strategies, as terms like “moon,” “squeeze,” and “hold” reflect a shared optimism and a collective approach to trading.</p>
 <p>The LDA model pinpointed key phrases like “moon,” “squeeze,” and “hold” as unifiers within the GME community, illustrating how these terms helped coordinate individual efforts into collective action. This analysis provided concrete insights into the group’s strategy, demonstrating the dynamics of connective action where digital platforms were used to align individual actions against market norms.</p>
 <p><br></p>

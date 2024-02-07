@@ -24,22 +24,22 @@ Word clouds offered an immediate visualisation of key terms, guiding our deeper 
 <img src="images/january.png" alt="January Word Cloud" style="width: 32%; height: auto;"> <img src="images/february.png" alt="February Word Cloud" style="width: 32%; height: auto;"> <img src="images/march.png" alt="March Word Cloud" style="width: 32%; height: auto;">
 
 
-#### January Word Cloud
+#### January Word Cloud:
 January: The term "buy" stands out prominently, along with "stock" and "GME," signalling a strong buying sentiment and interest in GME stock. This suggests an alignment with the initial surge in GME's share price, indicating a period of heightened investor enthusiasm.
 
 
-#### February Word Cloud
+#### February Word Cloud:
 February: Words like "hold" and "now" emerge as dominant, reflecting ongoing interest in GME. This seems to support the narrative of investors holding onto their shares amidst market fluctuations, showcasing a collective resolve.
 
 
-#### March Word Cloud
+#### March Word Cloud:
 March: "Price" and "share" continue to be significant, complemented by the appearance of "million" and "sell." This shift might denote discussions around profit-taking or evaluating the
 stock's worth following its earlier rally, pointing to a more cautious or strategic approach by the community.
 
 These insights are analogous to those speculated throughout our interactive timeline.
 
 
-#### Issues
+### Issues
 While word clouds provide an intuitive and visually appealing way to explore textual data, their reliance on the frequency of individual words can lead to oversimplification, especially with complex topics like the GME saga. This method overlooks the context in which words are used together, missing crucial nuances and the relationships between terms. Therefore, we felt it necessary to augment these word clouds with more advanced text analysis tools to grasp the subtleties and deeper insights of such discussions.
 
 <br>
@@ -88,7 +88,7 @@ Using adjusted parameters, such as for three topics, the model’s output was as
 
 <br>
 
-#### Insights
+### Insights
 
 LDA's insights have been pivotal in unravelling the GME saga by showing how individual actors found common ground and formed a collective momentum, crucial aspects of connective action. The model revealed an alignment of interests and strategies, as terms like "moon," "squeeze," and "hold" reflect a shared optimism and a collective approach to trading.
 

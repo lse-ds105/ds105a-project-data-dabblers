@@ -38,6 +38,7 @@ By implementing these, and approaching the data from different angles such as th
 
 > Forecast future stock price trends based on current sentiment data.
 
+<br>
 
 And thus:
 
