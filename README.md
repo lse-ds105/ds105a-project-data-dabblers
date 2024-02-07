@@ -3,7 +3,7 @@
 
 ## *Table of Contents*
 
-1. [Project Overview](#project_overview)
+1. [Project Overview](#project-overview)
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Data](#data)
@@ -79,7 +79,10 @@ Relevant folder: [Reddit CSV Files](https://github.com/lse-ds105/ds105a-project-
 
 #### Comparision of original data frame to cleaned data frame:
 
-<img src="docs/images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300"><img src="docs/images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
+<div style="display: flex;">
+    <img src="docs/images/original_reddit_data.png" alt="original_reddit_data" style="width: auto; height: 300px;">
+    <img src="docs/images/cleaned_reddit_data.png" alt="cleaned_reddit_data" style="width: auto; height: 300px;">
+</div>
 
 #### Header of cleaned Reddit data frame:
 
