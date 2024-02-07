@@ -16,13 +16,13 @@ body {
 .navbar-title {
     color: black;
     font-family: 'Press Start 2P', cursive;
-    font-size: 20px;
+    font-size: 16px;
   }
 
 .nav-item a, .nav-item a:visited {
     color: black;
     font-family: 'Press Start 2P', cursive;
-    font-size: 16px;
+    font-size: 12px;
   }
 
 .sidebar {
@@ -36,19 +36,19 @@ body {
 .sidebar-item a, .sidebar-item a:visited {
     color: #26f86c;
     font-family: 'Press Start 2P', cursive;
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.5;
   }
 
 .toc-title {
   color: #4630d5;
   font-family: 'Press Start 2P', cursive;
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.5;
 }
 .toc-active a, .toc-active a:visited {
     color: #4630d5;
     font-family: 'Press Start 2P', cursive;
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.5;
   }
