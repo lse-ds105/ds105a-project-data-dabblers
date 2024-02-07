@@ -53,13 +53,13 @@ body {
 
 .toc-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.5;
   }
 
 .toc-active ul, .toc-active ul:visited {
     font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
+    font-size: 8px;
     line-height: 1.5;
   }
 
