@@ -74,4 +74,4 @@ Overall we collected...
 
 <img src="images/chest.png" alt="Chest" style="width: 8%; height: auto; position: fixed; bottom: 35px; right: 0px; z-index: 2;">
 
-<img src="images/man.png" alt="Man" style="width: 8%; height: auto; position: fixed; bottom: 35px; right: 90px; z-index: 2;">
+<img src="images/man.png" alt="Man" style="width: 8%; height: auto; position: fixed; bottom: 35px; right: 100px; z-index: 2;">
