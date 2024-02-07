@@ -4,6 +4,14 @@ format: html
 ---
 <br>
 
+Overall we collected...
+
+> 5484 rows of GME stock price data
+
+> Over 1.3 million rows of r/wallstreetbets post data
+
+<br>
+
 ## r/wallstreetbets Posts  
 
 
@@ -17,6 +25,11 @@ format: html
     <img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">
   </div>
 </div>
+
+<div style="position: relative; width: 100%;">
+  <img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">
+</div>
+
 
 
 <br>

@@ -11,7 +11,7 @@ inputs:
 ## Introduction
 The initial analysis corroborated what we knew about the GME event, with visualisations clearly delineating the saga and linking stock fluctuations to real-time events effectively.
 
-Our next goal was to dive deeper into the phenomenon of how a dispersed group mobilised for change. Based on prior literature, we aimed to understand how they engaged in ‘connective action’ (Bennet, 2012), where the subreddit engages in collective action emerging from the use of digital media. Importantly, this refers to (i) decentralised and personalised participation, (ii) where a narrative is pursued against the establishment. We believe the incident meets these criteria.
+Our next goal was to dive deeper into the phenomenon of how a dispersed group mobilised for change. Based on prior literature, we aimed to understand how they engaged in ‘connective action’ (Bennet, 2012)[^1], where the subreddit engages in collective action emerging from the use of digital media. Importantly, this refers to (i) decentralised and personalised participation, (ii) where a narrative is pursued against the establishment. We believe the incident meets these criteria.
 
 This analysis, new to us, sought to identify trends and themes that explained the 'why' and 'how' of their collective action, without a predetermined path for investigation.
 
@@ -39,7 +39,7 @@ stock's worth following its earlier rally, pointing to a more cautious or strate
 These insights are analogous to those speculated throughout our interactive timeline.
 
 
-#### Issues
+### Issues
 While word clouds provide an intuitive and visually appealing way to explore textual data, their reliance on the frequency of individual words can lead to oversimplification, especially with complex topics like the GME saga. This method overlooks the context in which words are used together, missing crucial nuances and the relationships between terms. Therefore, we felt it necessary to augment these word clouds with more advanced text analysis tools to grasp the subtleties and deeper insights of such discussions.
 
 <br>
@@ -55,10 +55,6 @@ However, the "topics" unearthed through LDA, being distributions of words, may n
 Regardless, the LDA visualisation offered intriguing insights, revealing underlying patterns and themes that were not immediately apparent.
 
 <br>
-
-```{=nb}
-../visualisations/LDA_vis.ipynb
-```
 
 <iframe src="/visualisations/LDA_vis.html" width="100%" height="600px"></iframe>
 
@@ -88,7 +84,7 @@ Using adjusted parameters, such as for three topics, the model’s output was as
 
 <br>
 
-#### Insights
+### Insights
 
 LDA's insights have been pivotal in unravelling the GME saga by showing how individual actors found common ground and formed a collective momentum, crucial aspects of connective action. The model revealed an alignment of interests and strategies, as terms like "moon," "squeeze," and "hold" reflect a shared optimism and a collective approach to trading.
 
@@ -122,6 +118,8 @@ The sentiment analysis plot for GME stock illustrates several points of interest
 These observations underscore the interconnectedness of sentiment and stock prices, although the exact nature of this relationship remains complex and non-causal.
 
 
+[^1]: W. Lance Bennett & Alexandra Segerberg (2012) THE LOGIC OF CONNECTIVE ACTION, Information, Communication & Society, 15:5, 739-768, DOI: 10.1080/1369118X.2012.670661
+
 
 <img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: fixed; bottom: 35px; left: 0px; z-index: 2;">
 
@@ -132,3 +130,4 @@ These observations underscore the interconnectedness of sentiment and stock pric
 <img src="images/coin.png" alt="Coin" style="width: 3%; height: auto; position: fixed; bottom: 45px; right: 110px; z-index: 2;">
 
 <img src="images/man.png" alt="Man" style="width: 8%; height: auto; position: fixed; bottom: 35px; right: 150px; z-index: 2;">
+

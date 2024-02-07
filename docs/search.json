@@ -18,7 +18,7 @@
     "href": "visualisations.html#introduction",
     "title": "Mobilisation Insights",
     "section": "Introduction",
-    "text": "Introduction\nThe initial analysis corroborated what we knew about the GME event, with visualisations clearly delineating the saga and linking stock fluctuations to real-time events effectively.\nOur next goal was to dive deeper into the phenomenon of how a dispersed group mobilised for change. Based on prior literature, we aimed to understand how they engaged in ‘connective action’ (Bennet, 2012), where the subreddit engages in collective action emerging from the use of digital media. Importantly, this refers to (i) decentralised and personalised participation, (ii) where a narrative is pursued against the establishment. We believe the incident meets these criteria.\nThis analysis, new to us, sought to identify trends and themes that explained the ‘why’ and ‘how’ of their collective action, without a predetermined path for investigation."
+    "text": "Introduction\nThe initial analysis corroborated what we knew about the GME event, with visualisations clearly delineating the saga and linking stock fluctuations to real-time events effectively.\nOur next goal was to dive deeper into the phenomenon of how a dispersed group mobilised for change. Based on prior literature, we aimed to understand how they engaged in ‘connective action’ (Bennet, 2012)1, where the subreddit engages in collective action emerging from the use of digital media. Importantly, this refers to (i) decentralised and personalised participation, (ii) where a narrative is pursued against the establishment. We believe the incident meets these criteria.\nThis analysis, new to us, sought to identify trends and themes that explained the ‘why’ and ‘how’ of their collective action, without a predetermined path for investigation."
   },
   {
     "objectID": "visualisations.html#word-cloud-analysis",
@@ -42,11 +42,28 @@
     "text": "Sentiment Analysis\nSentiment analysis, in the context of stock market behaviour, serves as a powerful tool to gauge the mood and opinions of a wide array of market participants.\nBy quantifying emotions and views expressed across social media platforms, news articles, and other mediums, sentiment analysis provides an overview of the collective attitude toward a particular stock or the market in general.\nIt is crucial to note that the insights drawn do not imply causation.\n\n\n\nThe sentiment analysis plot for GME stock illustrates several points of interest:\n\nThere is a visible correlation where increases in sentiment scores often coincide with or precede rises in GME’s stock price.\n\n\nSharp spikes in sentiment appear to foreshadow significant upticks in stock price, suggesting that heightened positive sentiment could influence trading behaviour.\n\n\nThe sentiment’s role is not uniform; it varies, sometimes acting as a leading indicator and other times trailing the stock price changes.\n\nThese observations underscore the interconnectedness of sentiment and stock prices, although the exact nature of this relationship remains complex and non-causal."
   },
   {
+    "objectID": "visualisations.html#footnotes",
+    "href": "visualisations.html#footnotes",
+    "title": "Mobilisation Insights",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nW. Lance Bennett & Alexandra Segerberg (2012) THE LOGIC OF CONNECTIVE ACTION, Information, Communication & Society, 15:5, 739-768, DOI: 10.1080/1369118X.2012.670661↩︎"
+  },
+  {
+    "objectID": "collection.html",
+    "href": "collection.html",
+    "title": "Data Collection",
+    "section": "",
+    "text": "Overall we collected…",
+    "crumbs": [
+      "Data Collection"
+    ]
+  },
+  {
     "objectID": "collection.html#rwallstreetbets-posts",
     "href": "collection.html#rwallstreetbets-posts",
     "title": "Data Collection",
     "section": "r/wallstreetbets Posts",
-    "text": "r/wallstreetbets Posts\n\nCollection Process\n\n\n\n\n&lt;img src=\"images/reddit_scraping_process.png\" alt=\"Reddit Scraping\" style=\"width: 100%; height: auto;\"&gt;\n\n\n\n\n\nChallenges Faced\n\nReddit API Limitations: The inability to filter posts by date with the Reddit API hampers historical data collection.\nPushshift API Access Restrictions: Changes in the Pushshift API’s terms of use restrict its availability for research, limiting access to historical subreddit data.\nScraping Date-Specific Data: The need to find alternative methods to bypass the Reddit API’s date filtering limitations complicates data collection.\nWeb Scraping Tool Limitations: Using Selenium for scraping reveals a cap on data volume, with a maximum of 1000 recent posts being retrievable at a time.\nAPI Access Challenges: Failed attempts to use another’s Pushshift API access highlight the difficulties in obtaining necessary permissions for data access.\nData Format Navigation: Requesting a CSV version of Reddit API data points to the challenges of managing and utilising the provided data formats efficiently.",
+    "text": "r/wallstreetbets Posts\n\nCollection Process\n\n\n\n\n&lt;img src=\"images/reddit_scraping_process.png\" alt=\"Reddit Scraping\" style=\"width: 100%; height: auto;\"&gt;\n\n\n\n\n\n\n\n\nChallenges Faced\n\nReddit API Limitations: The inability to filter posts by date with the Reddit API hampers historical data collection.\nPushshift API Access Restrictions: Changes in the Pushshift API’s terms of use restrict its availability for research, limiting access to historical subreddit data.\nScraping Date-Specific Data: The need to find alternative methods to bypass the Reddit API’s date filtering limitations complicates data collection.\nWeb Scraping Tool Limitations: Using Selenium for scraping reveals a cap on data volume, with a maximum of 1000 recent posts being retrievable at a time.\nAPI Access Challenges: Failed attempts to use another’s Pushshift API access highlight the difficulties in obtaining necessary permissions for data access.\nData Format Navigation: Requesting a CSV version of Reddit API data points to the challenges of managing and utilising the provided data formats efficiently.",
     "crumbs": [
       "Data Collection"
     ]
@@ -86,7 +103,7 @@
     "href": "data_overview.html#interactive-timeline",
     "title": "Data Overview",
     "section": "Interactive Timeline",
-    "text": "Interactive Timeline\nClick here to view in separate window",
+    "text": "Interactive Timeline\nClick here to view in separate window\n\n\n\n\n4 January 2021:\n\n\nFirst Trading Day of 2021\nGME stock closes at $17.25 on the first day of trading in 2021.\nAt this point around 63% of the company’s outstanding shares are short sold, mainly by major hedge funds and institutional investors.\n\n\n\n11 January 2021:\n\n\nNew Leaders Appointed\nGME appoints new leaders to its board of directors, which sparks optimism among investors.\n\n\n\n22 January 2021:\n\n\nShares Surge by 50%\nGME’s short interest has increased to 140% - more shares had been sold short than existed on the market. As a result, price goes up by over 50% to close at $65.01.\n\n\n\n27 January 2021:\n\n\nHighest Close\nGameStop’s stock price closed at $347.51, its highest close of the squeeze.\nThe U.S. equity and options trading volume reached its highest-ever single-day level.\nMelvin Capital and Citron, two hedge funds that had been shorting GameStop stock, were forced to cover most of their short positions at huge losses.\n\n\n\n28 January 2021:\n\n\nRobinhood Restriction\nRobinhood, a popular brokerage app among r/wallstreetbets investors restricted trading GME stock, meaning retail investors could only sell the stock and could no longer buy it.\nThe subsequent sell off resulted in GME price crashing and triggered suspicions of market manipulation in favour of the institutional investors who were shorting GME.\n\n\n\n4 February 2021:\n\n\nRestrictions Lifted\nTrading restrictions on GME are lifted.\n\n\n\n19 February 2021:\n\n\nPost Squeeze Low\nGME sinks to a post-squeeze low of $40.59.\n\n\n\n24 February 2021:\n\n\nCongress Hearing\nUS Congress held a hearing to explore the impact of online communities on financial markets following the events of the Gamestop short squeeze.\n\n\n\n10 March 2021:\n\n\nPost Squeeze High\nGME reaches a post-squeeze high of $264.52.",
     "crumbs": [
       "Data Overview"
     ]
@@ -122,30 +139,30 @@
   {
     "objectID": "conclusions.html#candlestick-chart-and-interactive-plot",
     "href": "conclusions.html#candlestick-chart-and-interactive-plot",
-    "title": "Conclusions",
+    "title": "Our Conclusions",
     "section": "Candlestick Chart and Interactive Plot",
     "text": "Candlestick Chart and Interactive Plot"
   },
   {
     "objectID": "conclusions.html#mobilisation-insights",
     "href": "conclusions.html#mobilisation-insights",
-    "title": "Conclusions",
+    "title": "Our Conclusions",
     "section": "Mobilisation Insights",
-    "text": "Mobilisation Insights\n\nWord Clouds:\nThey served as our initial compass, highlighting prevalent terms and granting us a bird’s-eye view of the dominant discourse. While informative, word clouds merely scratch the surface, offering a glimpse rather than a deep dive.\n\n\nLDA Analysis:\nAdvancing to LDA provided a more structured understanding of the conversations taking place. It revealed clusters of discussion around topics like “GME,” “squeeze,” and “hold,” which reflect facets of the community’s collective action. However, the true significance of these topics requires context that goes beyond their frequency and distribution.\n\n\nSentiment Analysis:\nOur sentiment analysis painted a narrative of rising and falling emotional tides within the GME dialogue. Peaks in sentiment seemed to walk hand-in-hand with stock price movements, but this visual waltz should not be mistaken for a causal relationship. Multiple unseen variables could be at play, and sentiment is but one actor on a crowded stage.\nUltimately, with the current insights, we can surmise interesting patterns and correlations across the data. Yet, we acknowledge that these are not definitive conclusions."
+    "text": "Mobilisation Insights\n\nWord Clouds\nThey served as our initial compass, highlighting prevalent terms and granting us a bird’s-eye view of the dominant discourse. While informative, word clouds merely scratch the surface, offering a glimpse rather than a deep dive.\n\n\nLDA Analysis\nAdvancing to LDA provided a more structured understanding of the conversations taking place. It revealed clusters of discussion around topics like “GME,” “squeeze,” and “hold,” which reflect facets of the community’s collective action. However, the true significance of these topics requires context that goes beyond their frequency and distribution.\n\n\nSentiment Analysis\nOur sentiment analysis painted a narrative of rising and falling emotional tides within the GME dialogue. Peaks in sentiment seemed to walk hand-in-hand with stock price movements, but this visual waltz should not be mistaken for a causal relationship. Multiple unseen variables could be at play, and sentiment is but one actor on a crowded stage.\nUltimately, with the current insights, we can surmise interesting patterns and correlations across the data. Yet, we acknowledge that these are not definitive conclusions."
   },
   {
     "objectID": "conclusions.html#further-analysis",
     "href": "conclusions.html#further-analysis",
-    "title": "Conclusions",
+    "title": "Our Conclusions",
     "section": "Further Analysis",
-    "text": "Further Analysis\nWhile the word cloud, LDA, and sentiment analysis have yielded valuable insights into the GME saga, providing a glimpse into the collective mindset and topics of discussion, there’s room for deeper exploration. If, for example, we had the ability to track individual user behaviour over time, access more granular transaction data, and monitor comment threads in real-time, we could pursue a more comprehensive analysis.\n\nBy implementing these, and approaching the data from different angles such as through time-series analysis, or machine learning models we could potentially:\n\nUnderstanding the speed and magnitude of the market’s reaction to real-time events.\n\n\nIdentify the causative influence, if any, of sentiment on price movements.\n\n\nForecast future stock price trends based on current sentiment data.\n\nAnd thus:\n\nUnderstand the predictive power of sentiment over stock prices.\n\n\nAssess the degree to which sentiment reflects broader market trends or specific events.\n\n\nProvide actionable intelligence for traders and market analysts, enhancing decision-making processes.\n\n\nWith access to longitudinal data, user-level interactions, and the capability to parse the subtleties of sentiment in real-time, we could potentially unravel the causative threads of market movements."
+    "text": "Further Analysis\nWhile the word cloud, LDA, and sentiment analysis have yielded valuable insights into the GME saga, providing a glimpse into the collective mindset and topics of discussion, there’s room for deeper exploration. If, for example, we had the ability to track individual user behaviour over time, access more granular transaction data, and monitor comment threads in real-time, we could pursue a more comprehensive analysis.\n\nBy implementing these, and approaching the data from different angles such as through time-series analysis, or machine learning models we could potentially:\n\nUnderstanding the speed and magnitude of the market’s reaction to real-time events.\n\n\nIdentify the causative influence, if any, of sentiment on price movements.\n\n\nForecast future stock price trends based on current sentiment data.\n\n\nAnd thus:\n\nUnderstand the predictive power of sentiment over stock prices.\n\n\nAssess the degree to which sentiment reflects broader market trends or specific events.\n\n\nProvide actionable intelligence for traders and market analysts, enhancing decision-making processes.\n\n\nWith access to longitudinal data, user-level interactions, and the capability to parse the subtleties of sentiment in real-time, we could potentially unravel the causative threads of market movements."
   },
   {
     "objectID": "cleaning.html#rwallstreetbets-posts",
     "href": "cleaning.html#rwallstreetbets-posts",
     "title": "Data Cleaning",
     "section": "r/wallstreetbets Posts",
-    "text": "r/wallstreetbets Posts\n\nCleaning Process\n\n\n\n\nChallenges Faced\n\nFormatting: Converting ‘score’ and ‘num_comments’ fields from their original format to integers for quantitative analysis presents a fundamental data type consistency challenge.\nAlignment: Formatting the ‘date’ column to ‘datetime64’ to ensure compatibility and precise alignment with GameStop (GME) stock price data for time series analysis.\nAggregation: Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarisation of data points, like total posts, average scores, or comments per day.\nCreate Data Frame: The overall process of transforming raw subreddit data into a cleaned and structured data frame ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardising data formats.",
+    "text": "r/wallstreetbets Posts\n\nCleaning Process\n\n\n\n\nChallenges Faced\n\nAlignment: Formatting the ‘date’ column to ‘datetime64’ to ensure compatibility and precise alignment with GameStop (GME) stock price data for time series analysis.\nAggregation: Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarisation of data points, like total posts, average scores, or comments per day.\nData Frame: The process of transforming raw subreddit data into a cleaned and structured data frame ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardising data formats.",
     "crumbs": [
       "Data Cleaning"
     ]
@@ -155,7 +172,7 @@
     "href": "cleaning.html#gamestop-stock-prices",
     "title": "Data Cleaning",
     "section": "GameStop Stock Prices",
-    "text": "GameStop Stock Prices\n\nCleaning Process\n\n\n\n\nChallenges Faced\nThe overarching challenge of transforming the raw API data into a cleaned data frame involved multiple sub-tasks.\n\nEnsuring data consistency and accuracy after type conversion.\nHandling any missing or anomalous data points that could skew analysis.\nStructuring the data in a way that aligns with analytical goals, ensuring it’s ready for analysis or visualisation.",
+    "text": "GameStop Stock Prices\n\nCleaning Process\n\n\n\n\nChallenges Faced\nThe process of transforming the raw API data into a cleaned data frame involved multiple sub-tasks:\n\nEnsuring data consistency and accuracy after type conversion.\nHandling any missing or anomalous data points that could skew analysis.\nStructuring the data in a way that would align with analytical goals.",
     "crumbs": [
       "Data Cleaning"
     ]
