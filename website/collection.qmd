@@ -8,14 +8,14 @@ format: html
 ## r/wallstreetbets Posts  
 
 
-### Collection Process
+#### Collection Process
 
 <img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">  
 
 <br>
 <br>
 
-### Challenges Faced
+#### Challenges Faced
 
 1. Reddit API Limitations: The inability to filter posts by date with the Reddit API hampers historical data collection.
 
@@ -35,14 +35,14 @@ format: html
 ## GameStop Stock Prices  
 
 
-### Collection Process
+#### Collection Process
 
 <img src="images/gme_scraping_process.png" alt="GME Scraping" style="width: 100%; height: auto;">  
 
 <br>
 <br>
 
-### Challenges Faced
+#### Challenges Faced
 
 1. API Key Registration: Obtaining an API key requires registration, which may involve sharing personal information and adhering to specific use cases.
 
