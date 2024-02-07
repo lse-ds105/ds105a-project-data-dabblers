@@ -72,7 +72,7 @@ pip install -r requirements.txt
 2. CSV file of Reddit API data - sourced from LSE alumni
 
 ### *Collection and Cleaning of Reddit Data*
-#### Relevant folder: [Reddit CSV Files](data/reddit_data)
+#### Relevant folder: [Reddit CSV Files](https://github.com/lse-ds105/ds105a-project-data-dabblers/tree/main/data/reddit_data)
 
 Collection Process:
 
@@ -93,7 +93,7 @@ Header of cleaned Reddit data frame:
 
 
 ### *Collection and Cleaning of GameStock Stock Data*
-#### Relevant file: [GME JSON File](data/gme_data/gme_daily_data.json)
+#### Relevant file: [GME JSON File](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/data/gme_data/gme_daily_data.json)
 
 Collection Process:
 
@@ -109,8 +109,7 @@ Header of cleaned and merged GME data frame:
 
 
 ### *Exploratory Data Analysis*
-Collected 5484 rows of GME stock price data from the Alpha Vantage API.
-Collected over 1.3 million rows of r/wallstreetbets post data from the CSV file.
+
 
 
 ## VISUALISATIONS
@@ -134,11 +133,6 @@ Alexander Soldatkin (https://github.com/alex-soldatkin)
 |Adnan Baig|50|50|50|35|10|
 |Anna Jin|50|50|50|35|10|
 |Hailey Stevens|N/A|N/A|N/A|30|80|
-
-
-*If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.*
-
-*If you followed tutorials, include links to those here as well.*
 
 
 ## LICENSE

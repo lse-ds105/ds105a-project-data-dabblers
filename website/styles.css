@@ -19,10 +19,15 @@ body {
     font-size: 16px;
   }
 
+  .quarto-navbar-tools {
+    color: white;
+    font-size: 16px;
+  }
+
 .nav-item a, .nav-item a:visited {
     color: black;
     font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
+    font-size: 12px;
   }
 
 .sidebar {
@@ -36,7 +41,7 @@ body {
 .sidebar-item ul, .sidebar-item ul:visited {
     color: #26f86c;
     font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.5;
   }
 
@@ -49,6 +54,6 @@ body {
 .toc-active a, .toc-active a:visited {
     color: #4630d5;
     font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.5;
   }
