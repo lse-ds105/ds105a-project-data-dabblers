@@ -2,7 +2,9 @@
 title: "Data Cleaning"
 format: html
 ---
- 
+<br>
+<br>
+
 ## r/wallstreetbets Posts  
 
 
@@ -10,7 +12,8 @@ format: html
 
 <img src="images/reddit_cleaning_process.png" alt="Reddit Cleaning" style="width: 100%; height: auto;">  
 
-
+<br>
+<br>
 
 ### Challenges Faced
 
@@ -22,8 +25,8 @@ format: html
 
 4. Creating Dataframe: The overall process of transforming raw subreddit data into a cleaned and structured dataframe ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardizing data formats.  
 
-
-
+<br>
+<br>
 
 ## GameStop Stock Prices  
 
@@ -32,7 +35,8 @@ format: html
 
 <img src="images/gme_cleaning_process.png" alt="GME Cleaning" style="width: 100%; height: auto;">  
 
-
+<br>
+<br>
 
 ### Challenges Faced
 

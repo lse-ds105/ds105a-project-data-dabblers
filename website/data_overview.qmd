@@ -2,12 +2,16 @@
 title: "Data Overview"
 format: html
 ---
+<br>
+<br>
 
 ## Candlestick Chart
 
 <img src="images/gme_candlestick_chart.png" alt="GME Candlestick Chart" style="width: 100%; height: auto;">
 
 
+<br>
+<br>
 
 ## Interactive Plot
 
@@ -16,6 +20,8 @@ format: html
 [Click here to view in separate window](interactive_plot.html)
 
 
+<br>
+<br>
 
 ## Interactive Timeline
 

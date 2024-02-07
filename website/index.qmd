@@ -5,14 +5,20 @@ format: html
 
 2020-21 GameStop Short Squeeze: an analysis of the profound impact of social meedia communities on the price of GameStop stock.
 
+<br>
+<br>
 
 ## Project Overview
 Welcome to Dabbling in Data, a project which delves into the GameStop (GME) short squeeze phenomenon. Our primary objective is to shed light on the causation and degree of influence the Reddit community, r/wallstreetbets, had on the stock price of GameStop. We conducted an analysis of GME stock data in relation to r/wallstreetbets posts, over the period December 2020 to March 2021. 
 
+<br>
+<br>
 
 ## Our Motivation
 Our project stems from a fascination with this event and its disruption to traditional financial norms, its empowerment of online communities, and its ensuing impact on regulation. Through our analysis, we aim to reveal the role of online communities on stock market behaviour.
 
+<br>
+<br>
 
 ## Contextualising Our Project
 The GameStop short squeeze in early 2021 saw a remarkable surge in the stock price of GameStop (GME). This surge was orchestrated by retail investors, particularly through the Reddit community r/wallstreetbets. As these investors bought GME shares en masse, it forced hedge funds and institutional investors, who had bet against the stock, to cover their positions, causing GME's price to skyrocket.

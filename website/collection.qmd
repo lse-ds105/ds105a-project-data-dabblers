@@ -2,6 +2,8 @@
 title: "Data Collection"
 format: html
 ---
+<br>
+<br>
 
 ## r/wallstreetbets Posts  
 
@@ -10,7 +12,8 @@ format: html
 
 <img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">  
 
-
+<br>
+<br>
 
 ### Challenges Faced
 
@@ -26,8 +29,8 @@ format: html
 
 6. Data Format Navigation: Requesting a CSV version of Reddit API data points to the challenges of managing and utilizing the provided data formats efficiently.  
 
-
-
+<br>
+<br>
 
 ## GameStop Stock Prices  
 
@@ -36,6 +39,8 @@ format: html
 
 <img src="images/gme_scraping_process.png" alt="GME Scraping" style="width: 100%; height: auto;">  
 
+<br>
+<br>
 
 ### Challenges Faced
 
