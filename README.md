@@ -30,15 +30,9 @@ The GameStop short squeeze in early 2021 saw a remarkable surge in the stock pri
 
 ### *Interactive Timeline*
 
-<iframe src="docs/interactive_timeline.html" class="custom-iframe"></iframe>
+[Click here for notebook.](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/timeline.ipynb)
 
-<style>
-.custom-iframe {
-    width: 100%;
-    height: 70vh;
-    border: none;
-}
-</style>
+See website for full timeline.
 
 <br>
 
@@ -116,19 +110,14 @@ Relevant file: [GME JSON File](https://github.com/lse-ds105/ds105a-project-data-
 ### *Data Analysis*
 
 #### Candlestick chart:
+
 ![](docs/images/gme_candlestick_chart.png "GME Candlestick Chart")
 
-#### Interactive plot:
+#### Interactive plot: 
 
-<iframe src="docs/interactive_plot.html" class="custom-iframe"></iframe>
+[Click here for notebook.](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/interactive_plot.ipynb)
 
-<style>
-.custom-iframe {
-    width: 100%;
-    height: 70vh;
-    border: none;
-}
-</style>
+See website for full plot.
 
 <br>
 
@@ -136,21 +125,16 @@ Relevant file: [GME JSON File](https://github.com/lse-ds105/ds105a-project-data-
 
 #### Word cloud analysis:
 <div style="display: flex;">
-    <img src="docs/images/january.png" alt="January" style="width: auto; height: 300px;">
-    <img src="docs/images/february.png" alt="February" style="width: auto; height: 300px;">
-    <img src="docs/images/march.png" alt="March" style="width: auto; height: 300px;">
+    <img src="docs/images/january.png" alt="January" style="width: 30%; height: auto;">
+    <img src="docs/images/february.png" alt="February" style="width: 30%; height: auto;">
+    <img src="docs/images/march.png" alt="March" style="width: 30%; height: auto;">
 </div>
 
 #### LDA analysis:
-<iframe src="docs/lda_visualisation.html" class="custom-iframe"></iframe>
 
-<style>
-.custom-iframe {
-    width: 100%;
-    height: 70vh;
-    border: none;
-}
-</style>
+[Click here for notebook.](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/LDA_visualisation.ipynb)
+
+See website for full visualisation.
 
 #### Sentiment analysis:
 ![](docs/images/sentiment_analysis.png "Sentiment Analysis")
@@ -175,6 +159,7 @@ Alexander Soldatkin (https://github.com/alex-soldatkin)
 |Anna Jin|50|50|50|35|10|
 |Hailey Stevens|N/A|N/A|N/A|30|80|
 
+<br>
 
 ## LICENSE
 
