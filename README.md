@@ -79,9 +79,7 @@ Relevant folder: [Reddit CSV Files](https://github.com/lse-ds105/ds105a-project-
 
 #### Comparision of original data frame to cleaned data frame:
 
-<img src="docs/images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300">
-
-<img src="docs/images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
+<img src="docs/images/original_reddit_data.png" alt="original_reddit_data" width="auto" height="300"><img src="docs/images/cleaned_reddit_data.png" alt="cleaned_reddit_data" width="auto" height="300">
 
 #### Header of cleaned Reddit data frame:
 
