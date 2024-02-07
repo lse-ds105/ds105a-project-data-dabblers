@@ -32,7 +32,7 @@ The GameStop short squeeze in early 2021 saw a remarkable surge in the stock pri
 
 [Click here for notebook](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/timeline.ipynb)
 
-See website for full timeline
+See website for full timeline.
 
 <br>
 
@@ -46,7 +46,7 @@ Run in the command line:
 
 ## USAGE
 
-To reproduce the code and visualisations in the website run...
+To reproduce the code and visualisations in the website run:
 1. 'stock_price_scraping.ipynb' in the scraping folder
 2. 'timeline.ipynb' in the visualisations folder
 3. 'interactive_plot.ipynb' in the visualisations folder
@@ -116,7 +116,7 @@ Relevant file: [GME JSON File](https://github.com/lse-ds105/ds105a-project-data-
 
 #### Interactive plot: [click here for notebook](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/interactive_plot.ipynb)
 
-See website for full plot
+See website for full plot.
 
 <br>
 
@@ -131,7 +131,7 @@ See website for full plot
 
 #### LDA analysis: [click here for notebook](https://github.com/lse-ds105/ds105a-project-data-dabblers/blob/main/visualisations/LDA_visualisation.ipynb)
 
-See website for full visualisation
+See website for full visualisation.
 
 #### Sentiment analysis:
 ![](docs/images/sentiment_analysis.png "Sentiment Analysis")
