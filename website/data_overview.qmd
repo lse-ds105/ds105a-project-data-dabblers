@@ -11,13 +11,13 @@ format: html
 
 ## Interactive Plot
 
-<iframe src="../visualisations/interactive_plot.html" style="width: 80%; height: auto;" frameborder="0"></iframe>
+<iframe src="interactive_plot.html" style="width: 100%; height: auto;" frameborder="0"></iframe>
 
 
 
 ## Interactive Timeline
 
-<iframe src="../visualisations/interactive_timeline.html" style="width: 80%; height: auto;" frameborder="0"></iframe>
+<iframe src="interactive_timeline.html" style="width: 100%; height: auto;" frameborder="0"></iframe>
 
 
 

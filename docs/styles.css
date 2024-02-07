@@ -19,15 +19,16 @@ body {
     font-size: 16px;
   }
 
-  .quarto-navbar-tools {
-    color: white;
-    font-size: 16px;
+.github-icon {
+  width: auto;
+  height: auto;
+  color: white;
   }
 
 .nav-item a, .nav-item a:visited {
     color: black;
     font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
+    font-size: 14px;
   }
 
 .sidebar {

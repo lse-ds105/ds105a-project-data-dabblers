@@ -2,13 +2,13 @@
 title: "Data Cleaning"
 format: html
 ---
-
-## r/wallstreetbets Posts
+ 
+## r/wallstreetbets Posts  
 
 
 ### Cleaning Process
 
-<img src="images/reddit_cleaning_process.png" alt="Reddit Cleaning" style="width: 100%; height: auto;">
+<img src="images/reddit_cleaning_process.png" alt="Reddit Cleaning" style="width: 100%; height: auto;">  
 
 
 
@@ -20,17 +20,17 @@ format: html
 
 3. Aggregation: Using the groupby method to aggregate posts by date requires careful handling to ensure accurate summarization of data points, like total posts, average scores, or comments per day.
 
-4. Creating Dataframe: The overall process of transforming raw subreddit data into a cleaned and structured dataframe ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardizing data formats.
+4. Creating Dataframe: The overall process of transforming raw subreddit data into a cleaned and structured dataframe ready for analysis involves several preprocessing steps, including handling missing values, removing duplicates, and standardizing data formats.  
 
 
 
 
-## GameStop Stock Prices
+## GameStop Stock Prices  
 
 
 ### Cleaning Process
 
-<img src="images/gme_cleaning_process.png" alt="GME Cleaning" style="width: 100%; height: auto;">
+<img src="images/gme_cleaning_process.png" alt="GME Cleaning" style="width: 100%; height: auto;">  
 
 
 

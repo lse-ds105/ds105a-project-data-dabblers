@@ -3,12 +3,12 @@ title: "Data Collection"
 format: html
 ---
 
-## r/wallstreetbets Posts
+## r/wallstreetbets Posts  
 
 
 ### Collection Process
 
-<img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">
+<img src="images/reddit_scraping_process.png" alt="Reddit Scraping" style="width: 100%; height: auto;">  
 
 
 
@@ -24,24 +24,24 @@ format: html
 
 5. API Access Challenges: Failed attempts to use another's Pushshift API access highlight the difficulties in obtaining necessary permissions for data access.
 
-6. Data Format Navigation: Requesting a CSV version of Reddit API data points to the challenges of managing and utilizing the provided data formats efficiently.
+6. Data Format Navigation: Requesting a CSV version of Reddit API data points to the challenges of managing and utilizing the provided data formats efficiently.  
 
 
 
 
-## GameStop Stock Prices
+## GameStop Stock Prices  
 
 
 ### Collection Process
 
-<img src="images/gme_scraping_process.png" alt="GME Scraping" style="width: 100%; height: auto;">
+<img src="images/gme_scraping_process.png" alt="GME Scraping" style="width: 100%; height: auto;">  
 
 
 ### Challenges Faced
 
 1. API Key Registration: Obtaining an API key requires registration, which may involve sharing personal information and adhering to specific use cases.
 
-2. Rate Limits and Quotas: Alpha Vantage imposes rate limits that can slow the data collection process, a significant consideration for large datasets.
+2. Rate Limits and Quotas: Alpha Vantage imposes rate limits that can slow the data collection process, a significant consideration for large datasets.  
 
 
 
