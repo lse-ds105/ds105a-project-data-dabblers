@@ -10,8 +10,7 @@ format:
 
 website:
   title: "Data Dabblers"
-  navbar: 
-    #logo: ../images/data_dabblers.png
+  navbar:
     tools:
       - icon: github
         menu:
@@ -21,11 +20,11 @@ website:
             url:  https://github.com/lse-ds105/ds105a-project-data-dabblers/issues/new
     search: true
     left:
-      - text: "Overview"
+      - text: "About"
         href: index.html
       - sidebar:eda
       - text: "Visualisations"
-        href: conclusions.html
+        href: visualisations.html
       - text: "Conclusions"
         href: conclusions.html
       - text: "Contributions"

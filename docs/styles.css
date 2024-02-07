@@ -1,8 +1,12 @@
 /* css styles */
-  
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
     background-color: black !important;
     color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    line-height: 1.5;
   }
   
 .navbar {
@@ -11,16 +15,29 @@ body {
 
 .nav-item a, .nav-item a:visited {
     color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    line-height: 1.5;
   }
 
-.sidebar{
+.sidebar {
     background-color: black !important;
-}
+  }
+
+.margin-sidebar {
+  background-color: black !important;
+  }
 
 .sidebar-item a, .sidebar-item a:visited {
     color: #26f86c;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    line-height: 1.5;
   }
 
 .toc-active ul, .toc-active ul:visited {
     color: #4630d5;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    line-height: 1.5;
   }
