@@ -50,13 +50,11 @@ The GameStop short squeeze in early 2021 saw a remarkable surge in the stock pri
 
 ## INSTALLATION
 
-### *Installation for MacOS*
+### *Installation for MacOS and Windows*
 
-Run code in the command line:
+Run in the command line:
 
 pip install -r requirements.txt
-
-### *Installation for Windows*
 
 
 ## USAGE
