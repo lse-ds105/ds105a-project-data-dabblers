@@ -1,7 +1,27 @@
 ---
 title: "Visualisations"
 format: html
+execute:
+  enabled: true
 ---
+
+
+## Wordclouds From Each Month
+<img src="images/january.png" alt="January Word Cloud" style="width: 30%; height: auto;"> <img src="images/february.png" alt="February Word Cloud" style="width: 30%; height: auto;"> <img src="images/march.png" alt="March Word Cloud" style="width: 30%; height: auto;">
+
+## LDA
+{{< notebook "../visualisations/LDA_vis.ipynb" >}}
+
+```{.python .ipython}
+#| echo: false
+#| code-fold: true
+#| input: ../visualisations/LDA_vis.ipynb
+
+
+## Sentiment Analysis
+<img src="images/sentiment_analysis.png" alt="Sentiment Analysis" style="width: 100%; height: auto;">
+
+
 
 
 
