@@ -15,8 +15,8 @@ Our project stems from a fascination with this event and its disruption to tradi
 The GameStop short squeeze in early 2021 saw a remarkable surge in the stock price of GameStop (GME). This surge was orchestrated by retail investors, particularly through the Reddit community r/wallstreetbets. As these investors bought GME shares en masse, it forced hedge funds and institutional investors, who had bet against the stock, to cover their positions, causing GME's price to skyrocket.
 
 
-<img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: absolute; bottom: 30px; left: 0px; z-index: 2;">
+<img src="images/tree.png" alt="Tree" style="width: 14%; height: auto; position: fixed; bottom: 30px; left: 0px; z-index: 2;">
 
-<img src="images/brick.png" alt="Brick" style="width: 100%; height: auto; position: absolute; bottom: 0px; left: 0px; z-index: 3;">
+<img src="images/brick.png" alt="Brick" style="width: 100%; height: auto; position: fixed; bottom: 0px; left: 0px; z-index: 3;">
 
-<img src="images/chest.png" alt="Chest" style="width: 10; height: auto; bottom: 30px; right: 0px; z-index: 2;">
+<img src="images/chest.png" alt="Chest" style="width: 10; height: auto; position: fixed; bottom: 30px; right: 0px; z-index: 2;">
