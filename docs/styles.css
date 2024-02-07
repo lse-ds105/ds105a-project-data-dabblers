@@ -5,6 +5,7 @@ body {
     background-color: black !important;
     color: white;
     font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
   }
   
 .navbar {
@@ -14,6 +15,7 @@ body {
 .nav-item a, .nav-item a:visited {
     color: black;
     font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
   }
 
 .sidebar {
@@ -27,9 +29,11 @@ body {
 .sidebar-item a, .sidebar-item a:visited {
     color: #26f86c;
     font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
   }
 
 .toc-active ul, .toc-active ul:visited {
     color: #4630d5;
     font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
   }
