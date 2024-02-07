@@ -25,7 +25,7 @@
     "href": "visualisations.html#lda",
     "title": "Visualisations",
     "section": "LDA",
-    "text": "LDA\n{{&lt; notebook \"../visualisations/LDA_vis.ipynb\" &gt;}}\n```{.python .ipython} #| echo: false #| code-fold: true #| input: ../visualisations/LDA_vis.ipynb"
+    "text": "LDA\n{{&lt; notebook \"../visualisations/LDA_vis.ipynb\" &gt;}}"
   },
   {
     "objectID": "visualisations.html#sentiment-analysis",
