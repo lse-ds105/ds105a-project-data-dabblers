@@ -50,11 +50,9 @@ The GameStop short squeeze in early 2021 saw a remarkable surge in the stock pri
 
 ## INSTALLATION
 
-### *Installation for MacOS and Windows*
-
 Run in the command line:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 ## USAGE
@@ -64,6 +62,7 @@ To reproduce the code and visualisations in the website:
     Run 'stock_price_scraping.ipynb' in the scraping folder
     Run 'timeline.ipynb' in the visualisations folder
     Run 'interactive_plot.ipynb' in the visualisations folder
+
 
 ## DATA
 
