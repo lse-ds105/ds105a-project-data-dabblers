@@ -152,9 +152,9 @@ Alexander Soldatkin (https://github.com/alex-soldatkin)
 
 |Contributors (%)|Data Collections (%)|Data Cleaning (%)|Visualisations (%)|Repository Organisation (%)|Documentation (%)|
 |-----------|-----------|-----------|-----------|-----------|-----------|
-|Adnan Baig|50|50|50|35|10|
-|Anna Jin|50|50|50|35|10|
-|Hailey Stevens|N/A|N/A|N/A|30|80|
+|Adnan Baig|50|50|50|30|10|
+|Anna Jin|50|50|50|30|10|
+|Hailey Stevens|N/A|N/A|N/A|40|80|
 
 <br>
 
